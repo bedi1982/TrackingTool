@@ -1,0 +1,210 @@
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.exe
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.pdb
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.dll
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.xml
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\Administrador\Meus documentos\Visual Studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Visual Studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Leandro\Dropbox\PAP\Pomerode\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Leandro\Dropbox\PAP\Pomerode\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\FTX\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.exe
+G:\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\bin\Debug\EntityFramework.xml
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Gilson\Dropbox\PAP\Thiago\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Gilson\Dropbox\PAP\Thiago\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gilson\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\bin\Debug\EntityFramework.xml
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\TrackinTool Oficial - Liberado\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.dll
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.xml
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.dll
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Leandro\Dropbox\PAP\TrackinTool Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.dll
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.xml
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\TrackinTool 7 Oficial - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\bin\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\bin\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\bin\Debug\EntityFramework.dll
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\bin\Debug\EntityFramework.xml
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Baixa_Conta_A_Pagar.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\TrackinTool Oficial 7.1 - Travado (Leandro R.)\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Baixa_Conta_A_Pagar.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Cadastar_Contas_Pagar.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.exe
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\bin\Debug\TrackingTool6.pdb
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.dll
+D:\Projects\TrackinTool Oficial 7.2 - Travado(Leandro)\TrackingTool6\bin\Debug\EntityFramework.xml

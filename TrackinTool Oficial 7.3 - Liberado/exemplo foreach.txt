@@ -1,0 +1,46 @@
+Função na DAO que retorna uma lista com todos os objetos 'jogo'
+
+public static List<Jogo> Lista()
+        { //Retorna uma lista com todos os jogos em casa
+
+            List<Jogo> jogos = new List<Jogo>();
+            DarthVaderEntities db = SingletonObjectContext.Instance.Context;
+
+            //try
+            //{
+            int i = 0;
+            foreach (Jogo x in db.Jogos)
+            {
+                if (x.emprestado == false)
+                {
+                    i++;
+                    jogos.Add(x);
+                }
+            }
+
+            if (i == 0)
+            {
+                return null;
+            }
+            else
+                return jogos;
+        }
+
+E aqui o data grid sendo preenchido:
+
+if (jogos != null)
+            {
+                double tot_em_casa = 0;
+                foreach (Jogo x in jogos)
+                {
+                    Main_dataGrid_JogosEmCasa.Rows.Add(x.id, x.titulo, x.plataforma, x.ano, x.custo, x.quantidade, x.data_cadastro);
+                    tot_em_casa += x.custo;
+                }
+
+                lbl_valor_total_em_casa.Text = tot_em_casa.ToString("C2");
+            }
+            else {
+                lbl_valor_total_em_casa.Text = "0";
+            }
+
+
