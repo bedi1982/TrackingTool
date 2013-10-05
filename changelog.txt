@@ -1,14 +1,3 @@
-------CÓDIGO LIBERADO--------
-
-O campo acima serve de controle, se alguém estiver com o código aberto,
-programando, coloque no topo deste texto:
-------CÓDIGO EM USO--------
-Quando você terminar de programar e não for mais fazer nada, coloque:
-------CÓDIGO EM LIBERADO--------
-
-Isto serve para o diretório Dropbox\PAP\TrackinTool Oficial <- esta é nossa cópia viva, cuidado.
-
-
 --------------REGRAS GERAIS SOBRE CODIFICAR-----------------
 Aqui tudo o que você fez no código deve ser colocado e 
 de maneira didática, se você mexeu na função de alguém
@@ -18,13 +7,11 @@ Se você criar um novo atributo numa classe escreva aqui porque.
 Se você remover um atributo de alguma classe explique porque.
 Se você fizer código e deixar esta documentação porca você será cobrado e 
 poderá se expulso do time de desenvolvimento.
-Como vocês são novos nesse código, verão que fiz um monte de funções já, mas 
-falta outro monte, caso tenham alguma duvida perguntem no facebook.
 
 Não deixe o código quebrado.
 --------------------------------------------------------------
-Changelog:
 
+Changelog:
 
 -------19-09-2013 ---------
 Sergio: Adicionei os campos da barra de menu:
@@ -86,7 +73,3 @@ Sergio:
 -Remoção de chamadas de função que chamava outra função (isso eliminou bastante problemas de compilação)
 -Adicionadas querys SQL personalizadas nas grids.
 -No contas a pagar item renomeado para 'Data de Vencimento'
-
-
--------DD-MM-AAAA----------
----------------------------
