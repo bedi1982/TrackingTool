@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingTool 0.9.8", "TrackingTool6\TrackingTool 0.9.8.csproj", "{EF4C0443-943D-4089-BB0E-48824FDAD10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingTool 0.9.8", "TrackingTool 0.9.8.csproj", "{EF4C0443-943D-4089-BB0E-48824FDAD10A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

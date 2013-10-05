@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TrackingTool6.exe" size="226816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TrackingTool6.exe" size="227328">
       <assemblyIdentity name="TrackingTool6" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>VNqX6UIuJRMMdBU3vHGgwyTqLSo=</dsig:DigestValue>
+        <dsig:DigestValue>mdgpZrvwex+doDpyxpJrRyXYMhc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
