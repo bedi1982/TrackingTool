@@ -1,0 +1,182 @@
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.exe
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.pdb
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.dll
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.xml
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+c:\documents and settings\administrador\meus documentos\visual studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\Administrador\Meus documentos\Visual Studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Visual Studio 2010\Projects\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Leandro\Dropbox\PAP\Pomerode\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Leandro\Dropbox\PAP\Pomerode\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\FTX\Desktop\TrackingTool6\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\FTX\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\FTX\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.exe
+G:\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.pdb
+G:\TrackingTool7\TrackingTool6\bin\Debug\EntityFramework.xml
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+G:\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool7\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool8 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9.3 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\bin\Debug\EntityFramework.xml
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool9.4 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Add_Conta_Pagar.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Entrada_de_dinheiro_Fornecedor_para_centro_de_custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Thiago\TrackingTool9.5 - Thiago\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\bin\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\bin\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Remove_CDC.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Remove_loja.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Add_Conta_Pagar.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_add_conta_receber.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adicionar_Loja.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Adiciona_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Lojas.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Listar_Fornecedores.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frm_Main.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.View.Frn_Remove_Fornecedor.resources
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.exe
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.pdb
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\bin\Debug\TrackingTool6.exe.manifest
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\bin\Debug\TrackingTool6.application
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.exe.manifest
+C:\Documents and Settings\Administrador\Meus documentos\Dropbox\PAP\Pomerode\TrackingTool9.6 - Sergio\TrackingTool6\obj\x86\Debug\TrackingTool6.application

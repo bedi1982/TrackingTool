@@ -1,0 +1,92 @@
+------CÓDIGO LIBERADO--------
+
+O campo acima serve de controle, se alguém estiver com o código aberto,
+programando, coloque no topo deste texto:
+------CÓDIGO EM USO--------
+Quando você terminar de programar e não for mais fazer nada, coloque:
+------CÓDIGO EM LIBERADO--------
+
+Isto serve para o diretório Dropbox\PAP\TrackinTool Oficial <- esta é nossa cópia viva, cuidado.
+
+
+--------------REGRAS GERAIS SOBRE CODIFICAR-----------------
+Aqui tudo o que você fez no código deve ser colocado e 
+de maneira didática, se você mexeu na função de alguém
+escreva aqui o porque e o que mudou.
+
+Se você criar um novo atributo numa classe escreva aqui porque.
+Se você remover um atributo de alguma classe explique porque.
+Se você fizer código e deixar esta documentação porca você será cobrado e 
+poderá se expulso do time de desenvolvimento.
+Como vocês são novos nesse código, verão que fiz um monte de funções já, mas 
+falta outro monte, caso tenham alguma duvida perguntem no facebook.
+
+Não deixe o código quebrado.
+--------------------------------------------------------------
+Changelog:
+
+
+-------19-09-2013 ---------
+Sergio: Adicionei os campos da barra de menu:
+* Fornecedor -> Incluir Repease (é quando o fornecedor manda dinheiro, no objeto do fornecedor 
+fica registrado o valor, a data e para qual centro de custo o valor foi)
+---------------------------
+
+-------19-09-2013 ---------
+Thiago: 
+-Adicionado design das contas a receber
+-Iniciado as funcionalidades de contas a receber
+*As alterações estão na pasta Tracking Tool - Thiago
+
+-------22-09-2013----------
+Leandro:
+-Adiciona a função completa de gravação de contas a pagar
+-Melhorado interface da tela de conta a pagar
+
+-------22-09-2013----------
+Leandro:
+-Realizado mudanças nas classes Fornecedor e Centro de Custo. Isso foi feito devido a necessidade
+do retorno de uma lista de fornecedor e centro de custo para cadastro da conta
+-incluído mais funcionalidades na tela de contas à pagar
+
+----------23/09/2013----------
+Thiago:
+-Funcionalidades de adicionar contas a receber completadas e com mais dados.
+-Iniciada a parte em que será feita com um duplo clique para ser chamada uma funcionalidade do programa.
+
+*Vou colocar uma outra tela, onde após o duplo clique em cima da conta a ser recebida, mostrará uma messagebox, onde será perguntado se há alteração no valor, se houver uma nova tela aparecerá e poderá ser acrescentado uma % ou um valor concreto.
+
+-------24-09-2013----------
+Leandro:
+-Não fiz nada de codificação, apenas criei uma nova tela que fará a baixa das contas a serem pagas
+
+
+-------25-09-2013----------
+Leandro:
+-Tela de Baixa de contas a pagar finalizada, próximo passo fazer funcionar
+
+
+-------01-10-2013----------
+Leandro:
+-Finalizado o fluxo de seleção e apresentação das contas a pagar
+
+-------01-10-2013----------
+Leandro:
+-Incluído regras de negócio e tratamento de execeções na tela contas a receber
+
+-------04-10-2013----------
+Sergio:
+-Removida classe que tinha contas recebidas
+-Adicionada variavel booleana nas contas a receber, onde 'true' é recebida e 'false' é não recebida
+-Adicionada variavel booleana no fornecedor, nas lojas e nos CDC's,onde true significa ativo e false significa que foi deletado
+-Removido atributo de saldo do centro de Custo
+-No fornecedor deixado apenas atributo 'telefone de contato'
+-Classe model Centro de custo agora apenas tem nome, descricao, codigo hiperfarma e saldo
+-palavra codigo alterada para 'Codigo hiperfarma'
+-Remoção de chamadas de função que chamava outra função (isso eliminou bastante problemas de compilação)
+-Adicionadas querys SQL personalizadas nas grids.
+-No contas a pagar item renomeado para 'Data de Vencimento'
+
+
+-------DD-MM-AAAA----------
+---------------------------
