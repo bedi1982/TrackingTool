@@ -1,5 +1,6 @@
 
 --------------REGRAS GERAIS desenvolvimento-----------------
+
 Aqui tudo o que você fez no código deve ser colocado e
 de maneira didática, se você mexeu na função de alguém
 escreva aqui o porque e o que mudou.
