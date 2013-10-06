@@ -60,3 +60,8 @@ Sergio:
 -Remoção de chamadas de função que chamava outra função (isso eliminou bastante problemas de compilação)
 -Adicionadas querys SQL personalizadas nas grids.
 -No contas a pagar item renomeado para 'Data de Vencimento'
+-Adicionada função de Remover CDC
+-Adicionada função de Remover fornecedor
+-Adicionada função de Remover loja
+-Adicionada função de alterar status quando uma conta é recebida (true para
+false caracterizando pagamento)
