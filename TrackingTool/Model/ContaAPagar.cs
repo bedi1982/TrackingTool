@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TrackingTool6.Model
+namespace Tracking.Model
 {
     class ContaAPagar
     {
@@ -17,6 +17,8 @@ namespace TrackingTool6.Model
         public String centroCusto { set; get; }
         public String codigo { set; get; }
         public String fornecedor { set; get; }
+        public String loja { set; get; }
+        public String tipo { set; get; }
 
         //false para conta não paga e 
         //true para conta paga - 

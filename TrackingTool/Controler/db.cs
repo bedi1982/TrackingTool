@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.Entity;
-using TrackingTool6.Model;
+using Tracking.Model;
 
-namespace TrackingTool6.db
+namespace Tracking.Tool
 {
-    class TrackingToolEntities : DbContext
+    class banco : DbContext
     {
             protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -16,6 +16,7 @@ namespace TrackingTool6.db
             modelBuilder.Entity<CentroDeCusto>().ToTable("CentrosDeCusto");
             modelBuilder.Entity<ContaReceber>().ToTable("ContaReceber");
             modelBuilder.Entity<ContaAPagar>().ToTable("ContaAPagar");
+            modelBuilder.Entity<Usuarios>().ToTable("Usuarios");
             base.OnModelCreating(modelBuilder);
         }
 
@@ -24,5 +25,7 @@ namespace TrackingTool6.db
         public DbSet<CentroDeCusto> CentrosDeCusto { set; get; }
         public DbSet<ContaReceber> ContaReceber { set; get; }
         public DbSet<ContaAPagar> ContaAPagar { set; get; }
+        public DbSet<Usuarios> Usuarios { set; get; }
+
     }
 }

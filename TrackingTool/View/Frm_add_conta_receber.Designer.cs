@@ -1,4 +1,4 @@
-﻿namespace TrackingTool6.View
+﻿namespace Tracking.View
 {
     partial class Frm_add_conta_receber
     {
@@ -29,9 +29,12 @@
         private void InitializeComponent()
         {
             this.GBDadosConta = new System.Windows.Forms.GroupBox();
-            this.BtnOK = new System.Windows.Forms.Button();
-            this.TxtNovoValor = new System.Windows.Forms.TextBox();
-            this.LblNovoValor = new System.Windows.Forms.Label();
+            this.BtnFornContas = new System.Windows.Forms.Button();
+            this.BtnLojasContas = new System.Windows.Forms.Button();
+            this.TxtDescricaoForn = new System.Windows.Forms.TextBox();
+            this.BtnProcurarForn = new System.Windows.Forms.Button();
+            this.LblCodFornecedor = new System.Windows.Forms.Label();
+            this.TxtProcurarForn = new System.Windows.Forms.TextBox();
             this.TxtLojaDescricao = new System.Windows.Forms.TextBox();
             this.BtnProcuraLoja = new System.Windows.Forms.Button();
             this.LblLoja = new System.Windows.Forms.Label();
@@ -56,15 +59,15 @@
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.GridContasReceber = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CentroCusto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Data = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataCad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Data = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.loja = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BtnContaRecebida = new System.Windows.Forms.Button();
+            this.FornecedorCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CentroCusto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.GBDadosConta.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridContasReceber)).BeginInit();
@@ -72,9 +75,12 @@
             // 
             // GBDadosConta
             // 
-            this.GBDadosConta.Controls.Add(this.BtnOK);
-            this.GBDadosConta.Controls.Add(this.TxtNovoValor);
-            this.GBDadosConta.Controls.Add(this.LblNovoValor);
+            this.GBDadosConta.Controls.Add(this.BtnFornContas);
+            this.GBDadosConta.Controls.Add(this.BtnLojasContas);
+            this.GBDadosConta.Controls.Add(this.TxtDescricaoForn);
+            this.GBDadosConta.Controls.Add(this.BtnProcurarForn);
+            this.GBDadosConta.Controls.Add(this.LblCodFornecedor);
+            this.GBDadosConta.Controls.Add(this.TxtProcurarForn);
             this.GBDadosConta.Controls.Add(this.TxtLojaDescricao);
             this.GBDadosConta.Controls.Add(this.BtnProcuraLoja);
             this.GBDadosConta.Controls.Add(this.LblLoja);
@@ -96,48 +102,76 @@
             this.GBDadosConta.Controls.Add(this.BtnProcurar);
             this.GBDadosConta.Controls.Add(this.TxtCentroCusto);
             this.GBDadosConta.Controls.Add(this.LblCentroCusto);
-            this.GBDadosConta.Location = new System.Drawing.Point(87, 12);
+            this.GBDadosConta.Location = new System.Drawing.Point(174, 12);
             this.GBDadosConta.Name = "GBDadosConta";
-            this.GBDadosConta.Size = new System.Drawing.Size(718, 286);
+            this.GBDadosConta.Size = new System.Drawing.Size(726, 286);
             this.GBDadosConta.TabIndex = 0;
             this.GBDadosConta.TabStop = false;
             this.GBDadosConta.Text = "Dados da Conta";
             // 
-            // BtnOK
+            // BtnFornContas
             // 
-            this.BtnOK.Location = new System.Drawing.Point(271, 231);
-            this.BtnOK.Name = "BtnOK";
-            this.BtnOK.Size = new System.Drawing.Size(31, 20);
-            this.BtnOK.TabIndex = 10;
-            this.BtnOK.Text = "OK";
-            this.BtnOK.UseVisualStyleBackColor = true;
-            this.BtnOK.Visible = false;
-            this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
+            this.BtnFornContas.Image = global::Tracking.Properties.Resources.Search_icon;
+            this.BtnFornContas.Location = new System.Drawing.Point(675, 156);
+            this.BtnFornContas.Name = "BtnFornContas";
+            this.BtnFornContas.Size = new System.Drawing.Size(26, 20);
+            this.BtnFornContas.TabIndex = 30;
+            this.BtnFornContas.Text = "...";
+            this.BtnFornContas.UseVisualStyleBackColor = true;
+            this.BtnFornContas.Click += new System.EventHandler(this.BtnFornContas_Click);
             // 
-            // TxtNovoValor
+            // BtnLojasContas
             // 
-            this.TxtNovoValor.AcceptsTab = true;
-            this.TxtNovoValor.Location = new System.Drawing.Point(141, 231);
-            this.TxtNovoValor.Name = "TxtNovoValor";
-            this.TxtNovoValor.Size = new System.Drawing.Size(124, 20);
-            this.TxtNovoValor.TabIndex = 9;
-            this.TxtNovoValor.Visible = false;
+            this.BtnLojasContas.Image = global::Tracking.Properties.Resources.Search_icon;
+            this.BtnLojasContas.Location = new System.Drawing.Point(675, 125);
+            this.BtnLojasContas.Name = "BtnLojasContas";
+            this.BtnLojasContas.Size = new System.Drawing.Size(26, 20);
+            this.BtnLojasContas.TabIndex = 29;
+            this.BtnLojasContas.Text = "...";
+            this.BtnLojasContas.UseVisualStyleBackColor = true;
+            this.BtnLojasContas.Click += new System.EventHandler(this.BtnLojasContas_Click);
             // 
-            // LblNovoValor
+            // TxtDescricaoForn
             // 
-            this.LblNovoValor.AutoSize = true;
-            this.LblNovoValor.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.LblNovoValor.Location = new System.Drawing.Point(16, 233);
-            this.LblNovoValor.Name = "LblNovoValor";
-            this.LblNovoValor.Size = new System.Drawing.Size(119, 16);
-            this.LblNovoValor.TabIndex = 26;
-            this.LblNovoValor.Text = "Alteração de Valor:";
-            this.LblNovoValor.Visible = false;
+            this.TxtDescricaoForn.AcceptsTab = true;
+            this.TxtDescricaoForn.Location = new System.Drawing.Point(247, 156);
+            this.TxtDescricaoForn.Name = "TxtDescricaoForn";
+            this.TxtDescricaoForn.ReadOnly = true;
+            this.TxtDescricaoForn.Size = new System.Drawing.Size(422, 20);
+            this.TxtDescricaoForn.TabIndex = 28;
+            // 
+            // BtnProcurarForn
+            // 
+            this.BtnProcurarForn.Location = new System.Drawing.Point(210, 156);
+            this.BtnProcurarForn.Name = "BtnProcurarForn";
+            this.BtnProcurarForn.Size = new System.Drawing.Size(26, 20);
+            this.BtnProcurarForn.TabIndex = 8;
+            this.BtnProcurarForn.Text = "...";
+            this.BtnProcurarForn.UseVisualStyleBackColor = true;
+            this.BtnProcurarForn.Click += new System.EventHandler(this.BtnProcurarForn_Click);
+            // 
+            // LblCodFornecedor
+            // 
+            this.LblCodFornecedor.AutoSize = true;
+            this.LblCodFornecedor.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.LblCodFornecedor.Location = new System.Drawing.Point(4, 160);
+            this.LblCodFornecedor.Name = "LblCodFornecedor";
+            this.LblCodFornecedor.Size = new System.Drawing.Size(139, 16);
+            this.LblCodFornecedor.TabIndex = 27;
+            this.LblCodFornecedor.Text = "Código do Fornecedor:";
+            // 
+            // TxtProcurarForn
+            // 
+            this.TxtProcurarForn.AcceptsTab = true;
+            this.TxtProcurarForn.Location = new System.Drawing.Point(149, 156);
+            this.TxtProcurarForn.Name = "TxtProcurarForn";
+            this.TxtProcurarForn.Size = new System.Drawing.Size(55, 20);
+            this.TxtProcurarForn.TabIndex = 7;
             // 
             // TxtLojaDescricao
             // 
             this.TxtLojaDescricao.AcceptsTab = true;
-            this.TxtLojaDescricao.Location = new System.Drawing.Point(239, 125);
+            this.TxtLojaDescricao.Location = new System.Drawing.Point(247, 125);
             this.TxtLojaDescricao.Name = "TxtLojaDescricao";
             this.TxtLojaDescricao.ReadOnly = true;
             this.TxtLojaDescricao.Size = new System.Drawing.Size(422, 20);
@@ -145,7 +179,7 @@
             // 
             // BtnProcuraLoja
             // 
-            this.BtnProcuraLoja.Location = new System.Drawing.Point(202, 125);
+            this.BtnProcuraLoja.Location = new System.Drawing.Point(210, 125);
             this.BtnProcuraLoja.Name = "BtnProcuraLoja";
             this.BtnProcuraLoja.Size = new System.Drawing.Size(26, 20);
             this.BtnProcuraLoja.TabIndex = 6;
@@ -157,7 +191,7 @@
             // 
             this.LblLoja.AutoSize = true;
             this.LblLoja.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.LblLoja.Location = new System.Drawing.Point(29, 125);
+            this.LblLoja.Location = new System.Drawing.Point(37, 125);
             this.LblLoja.Name = "LblLoja";
             this.LblLoja.Size = new System.Drawing.Size(98, 16);
             this.LblLoja.TabIndex = 22;
@@ -166,7 +200,7 @@
             // TxtLojaProcura
             // 
             this.TxtLojaProcura.AcceptsTab = true;
-            this.TxtLojaProcura.Location = new System.Drawing.Point(141, 125);
+            this.TxtLojaProcura.Location = new System.Drawing.Point(149, 125);
             this.TxtLojaProcura.Name = "TxtLojaProcura";
             this.TxtLojaProcura.Size = new System.Drawing.Size(55, 20);
             this.TxtLojaProcura.TabIndex = 5;
@@ -212,17 +246,18 @@
             // 
             // BtnAtualizar
             // 
+            this.BtnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAtualizar.Location = new System.Drawing.Point(620, 257);
             this.BtnAtualizar.Name = "BtnAtualizar";
             this.BtnAtualizar.Size = new System.Drawing.Size(92, 23);
-            this.BtnAtualizar.TabIndex = 9;
+            this.BtnAtualizar.TabIndex = 12;
             this.BtnAtualizar.Text = "Atualizar lista";
             this.BtnAtualizar.UseVisualStyleBackColor = true;
             this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
             // 
             // DataCadastro
             // 
-            this.DataCadastro.Location = new System.Drawing.Point(447, 159);
+            this.DataCadastro.Location = new System.Drawing.Point(444, 187);
             this.DataCadastro.Name = "DataCadastro";
             this.DataCadastro.Size = new System.Drawing.Size(214, 20);
             this.DataCadastro.TabIndex = 6;
@@ -231,7 +266,7 @@
             // 
             this.LblData.AutoSize = true;
             this.LblData.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.LblData.Location = new System.Drawing.Point(313, 164);
+            this.LblData.Location = new System.Drawing.Point(310, 192);
             this.LblData.Name = "LblData";
             this.LblData.Size = new System.Drawing.Size(127, 16);
             this.LblData.TabIndex = 14;
@@ -240,7 +275,8 @@
             // BtnAdd
             // 
             this.BtnAdd.Enabled = false;
-            this.BtnAdd.Location = new System.Drawing.Point(12, 257);
+            this.BtnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAdd.Location = new System.Drawing.Point(539, 257);
             this.BtnAdd.Name = "BtnAdd";
             this.BtnAdd.Size = new System.Drawing.Size(75, 23);
             this.BtnAdd.TabIndex = 11;
@@ -263,24 +299,24 @@
             this.LblSaldo.Font = new System.Drawing.Font("Arial", 9.75F);
             this.LblSaldo.Location = new System.Drawing.Point(29, 62);
             this.LblSaldo.Name = "LblSaldo";
-            this.LblSaldo.Size = new System.Drawing.Size(161, 16);
+            this.LblSaldo.Size = new System.Drawing.Size(160, 16);
             this.LblSaldo.TabIndex = 11;
             this.LblSaldo.Text = "Saldo Atual deste  Centro:";
             // 
             // TxtDescricao
             // 
             this.TxtDescricao.AcceptsTab = true;
-            this.TxtDescricao.Location = new System.Drawing.Point(141, 194);
+            this.TxtDescricao.Location = new System.Drawing.Point(149, 222);
             this.TxtDescricao.Multiline = true;
             this.TxtDescricao.Name = "TxtDescricao";
             this.TxtDescricao.Size = new System.Drawing.Size(535, 20);
-            this.TxtDescricao.TabIndex = 8;
+            this.TxtDescricao.TabIndex = 10;
             // 
             // LblDescrição
             // 
             this.LblDescrição.AutoSize = true;
             this.LblDescrição.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.LblDescrição.Location = new System.Drawing.Point(9, 198);
+            this.LblDescrição.Location = new System.Drawing.Point(6, 226);
             this.LblDescrição.Name = "LblDescrição";
             this.LblDescrição.Size = new System.Drawing.Size(137, 16);
             this.LblDescrição.TabIndex = 9;
@@ -289,23 +325,25 @@
             // TxtValor
             // 
             this.TxtValor.AcceptsTab = true;
-            this.TxtValor.Location = new System.Drawing.Point(141, 160);
+            this.TxtValor.Location = new System.Drawing.Point(149, 187);
             this.TxtValor.Name = "TxtValor";
             this.TxtValor.Size = new System.Drawing.Size(124, 20);
-            this.TxtValor.TabIndex = 7;
+            this.TxtValor.TabIndex = 9;
+            this.TxtValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtValor_KeyPress);
             // 
             // LblValor
             // 
             this.LblValor.AutoSize = true;
             this.LblValor.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.LblValor.Location = new System.Drawing.Point(29, 161);
+            this.LblValor.Location = new System.Drawing.Point(49, 191);
             this.LblValor.Name = "LblValor";
-            this.LblValor.Size = new System.Drawing.Size(95, 16);
+            this.LblValor.Size = new System.Drawing.Size(94, 16);
             this.LblValor.TabIndex = 7;
             this.LblValor.Text = "Valor do Título:";
             // 
             // BtnProcurar
             // 
+            this.BtnProcurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnProcurar.Location = new System.Drawing.Point(459, 27);
             this.BtnProcurar.Name = "BtnProcurar";
             this.BtnProcurar.Size = new System.Drawing.Size(75, 23);
@@ -334,10 +372,11 @@
             // 
             // BtnVoltar
             // 
-            this.BtnVoltar.Location = new System.Drawing.Point(784, 504);
+            this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVoltar.Location = new System.Drawing.Point(928, 516);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.Size = new System.Drawing.Size(75, 23);
-            this.BtnVoltar.TabIndex = 12;
+            this.BtnVoltar.TabIndex = 13;
             this.BtnVoltar.Text = "Voltar";
             this.BtnVoltar.UseVisualStyleBackColor = true;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
@@ -347,19 +386,20 @@
             this.GridContasReceber.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridContasReceber.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
-            this.codigo,
-            this.descricao,
-            this.Valor,
-            this.CentroCusto,
-            this.Data,
             this.dataCad,
+            this.Data,
+            this.codigo,
+            this.loja,
+            this.FornecedorCR,
+            this.descricao,
             this.tipo,
-            this.loja});
+            this.CentroCusto,
+            this.Valor});
             this.GridContasReceber.Location = new System.Drawing.Point(13, 304);
             this.GridContasReceber.MultiSelect = false;
             this.GridContasReceber.Name = "GridContasReceber";
             this.GridContasReceber.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.GridContasReceber.Size = new System.Drawing.Size(846, 194);
+            this.GridContasReceber.Size = new System.Drawing.Size(990, 194);
             this.GridContasReceber.TabIndex = 8;
             // 
             // id
@@ -371,32 +411,10 @@
             this.id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.id.Width = 40;
             // 
-            // codigo
+            // dataCad
             // 
-            this.codigo.HeaderText = "Código da Conta";
-            this.codigo.Name = "codigo";
-            // 
-            // descricao
-            // 
-            this.descricao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.descricao.HeaderText = "Descrição da Conta";
-            this.descricao.Name = "descricao";
-            this.descricao.ReadOnly = true;
-            this.descricao.Width = 90;
-            // 
-            // Valor
-            // 
-            this.Valor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Valor.HeaderText = "Valor";
-            this.Valor.Name = "Valor";
-            this.Valor.ReadOnly = true;
-            this.Valor.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Valor.Width = 56;
-            // 
-            // CentroCusto
-            // 
-            this.CentroCusto.HeaderText = "Centro de Custo";
-            this.CentroCusto.Name = "CentroCusto";
+            this.dataCad.HeaderText = "Data de Cadastro";
+            this.dataCad.Name = "dataCad";
             // 
             // Data
             // 
@@ -406,36 +424,51 @@
             this.Data.ReadOnly = true;
             this.Data.Width = 116;
             // 
-            // dataCad
+            // codigo
             // 
-            this.dataCad.HeaderText = "Data de Cadastro";
-            this.dataCad.Name = "dataCad";
-            // 
-            // tipo
-            // 
-            this.tipo.HeaderText = "Tipo da Conta";
-            this.tipo.Name = "tipo";
+            this.codigo.HeaderText = "Código da Conta";
+            this.codigo.Name = "codigo";
             // 
             // loja
             // 
             this.loja.HeaderText = "Loja";
             this.loja.Name = "loja";
             // 
-            // BtnContaRecebida
+            // FornecedorCR
             // 
-            this.BtnContaRecebida.Location = new System.Drawing.Point(99, 504);
-            this.BtnContaRecebida.Name = "BtnContaRecebida";
-            this.BtnContaRecebida.Size = new System.Drawing.Size(103, 23);
-            this.BtnContaRecebida.TabIndex = 25;
-            this.BtnContaRecebida.TabStop = false;
-            this.BtnContaRecebida.Text = "Receber Conta";
-            this.BtnContaRecebida.UseVisualStyleBackColor = true;
-            this.BtnContaRecebida.Click += new System.EventHandler(this.BtnContaRecebida_Click);
+            this.FornecedorCR.HeaderText = "Fornecedor";
+            this.FornecedorCR.Name = "FornecedorCR";
+            // 
+            // descricao
+            // 
+            this.descricao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.descricao.HeaderText = "Descrição da Conta";
+            this.descricao.Name = "descricao";
+            this.descricao.ReadOnly = true;
+            this.descricao.Width = 90;
+            // 
+            // tipo
+            // 
+            this.tipo.HeaderText = "Tipo da Conta";
+            this.tipo.Name = "tipo";
+            // 
+            // CentroCusto
+            // 
+            this.CentroCusto.HeaderText = "Centro de Custo";
+            this.CentroCusto.Name = "CentroCusto";
+            // 
+            // Valor
+            // 
+            this.Valor.HeaderText = "Valor";
+            this.Valor.Name = "Valor";
+            this.Valor.ReadOnly = true;
+            this.Valor.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // BtnExcluir
             // 
+            this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnExcluir.Location = new System.Drawing.Point(228, 504);
+            this.BtnExcluir.Location = new System.Drawing.Point(13, 516);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(103, 23);
             this.BtnExcluir.TabIndex = 26;
@@ -448,9 +481,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(871, 551);
+            this.ClientSize = new System.Drawing.Size(1015, 551);
             this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.BtnContaRecebida);
             this.Controls.Add(this.GridContasReceber);
             this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.GBDadosConta);
@@ -490,20 +522,23 @@
         private System.Windows.Forms.Button BtnProcuraLoja;
         private System.Windows.Forms.Label LblLoja;
         private System.Windows.Forms.TextBox TxtLojaProcura;
-        private System.Windows.Forms.Button BtnContaRecebida;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descricao;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CentroCusto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Data;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataCad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn loja;
         private System.Windows.Forms.Button BtnExcluir;
-        private System.Windows.Forms.TextBox TxtNovoValor;
-        private System.Windows.Forms.Label LblNovoValor;
-        private System.Windows.Forms.Button BtnOK;
+        private System.Windows.Forms.TextBox TxtDescricaoForn;
+        private System.Windows.Forms.Button BtnProcurarForn;
+        private System.Windows.Forms.Label LblCodFornecedor;
+        private System.Windows.Forms.TextBox TxtProcurarForn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataCad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Data;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loja;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FornecedorCR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descricao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CentroCusto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
+        private System.Windows.Forms.Button BtnFornContas;
+        private System.Windows.Forms.Button BtnLojasContas;
 
     }
 }

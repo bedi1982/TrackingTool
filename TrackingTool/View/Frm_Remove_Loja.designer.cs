@@ -1,4 +1,4 @@
-﻿namespace TrackingTool6.View
+﻿namespace Tracking.View
 {
     partial class Frm_Remove_loja
     {

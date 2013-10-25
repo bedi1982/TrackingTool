@@ -1,16 +1,16 @@
-﻿using TrackingTool6.db;
+﻿using Tracking.Tool;
 
 
-namespace TrackingTool6.db
+namespace Tracking.Tool
 {
     class SingletonObjectContext
     {
         private static readonly SingletonObjectContext instance = new SingletonObjectContext();
-        private readonly TrackingToolEntities context;
+        private readonly banco context;
 
         private SingletonObjectContext()
         {
-            context = new TrackingToolEntities();
+            context = new banco();
         }
 
         public static SingletonObjectContext Instance
@@ -21,7 +21,7 @@ namespace TrackingTool6.db
             }
         }
 
-        public TrackingToolEntities Context
+        public banco Context
         {
             get
             {

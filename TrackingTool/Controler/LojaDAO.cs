@@ -2,64 +2,86 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TrackingTool6.db;
-using TrackingTool6.Model;
+using Tracking.Tool;
+using Tracking.Model;
 using System.Windows.Forms;
 
-namespace TrackingTool6.Controler
+namespace Tracking.Controler
 {
     class LojaDAO
     {
 
         public static bool AdicionaLojaEF(Loja loja)
         {
-            TrackingToolEntities db = SingletonObjectContext.Instance.Context;
+            banco db = SingletonObjectContext.Instance.Context;
             try
             {
                 db.Lojas.Add(loja);
                 db.SaveChanges();
+                MessageBox.Show("Adicionado ao Banco");
+                return true;
             }
             catch
             {
                 MessageBox.Show("Nao adicionou");
+                return false;
             }
 
-            MessageBox.Show("Adicionado ao Banco");
-            return true;
+            
         }
 
         public static Loja Procurar_Loja_por_nome(Loja loja)
         {
-            TrackingToolEntities db = SingletonObjectContext.Instance.Context;
+            banco db = SingletonObjectContext.Instance.Context;
 
             foreach (Loja x in db.Lojas)
             {
                 // TODO Está case senstive
-                if (x.nome.ToUpper().Contains(loja.nome.ToUpper()))
+                if (x.nome.ToUpper().Contains(loja.nome.ToUpper()) && x.status == true)
                 {
                     return x;
                 }
             }
             return null;
         }
-        public static Loja Procurar_Loja_por_numero(Loja loja)
+        public static Loja Procurar_Loja_por_codigo_hiperfarma(Loja loja)
         {
-            TrackingToolEntities db = SingletonObjectContext.Instance.Context;
-            foreach (Loja x in db.Lojas)
+            banco db = SingletonObjectContext.Instance.Context;
+            Loja encontrado = new Loja();
+            encontrado = null;
+
+
+            try
             {
-                if(x.codigo_hiperfarma.Equals(loja.codigo_hiperfarma)){
-                return x;
+                foreach (Loja x in db.Lojas)
+                {
+                    if (x.codigo_hiperfarma.Equals(loja.codigo_hiperfarma) && x.status == true)
+                    {
+                        encontrado = x;
+                        break;
+                    }
                 }
+
+                if (encontrado != null)
+                {
+                    return encontrado;
+                }
+                else
+                {
+                    return null;
+                }
+                
             }
-
-            return null;
-
+            catch
+            {
+                return null;
+            }
         }
 
         //A função de remover não remove, apenas inativa//
         public static Loja Remove_Loja(Loja loja)
         {
-            TrackingToolEntities db = SingletonObjectContext.Instance.Context;
+            banco db = SingletonObjectContext.Instance.Context;
 
             foreach (Loja x in db.Lojas)
             {
@@ -73,6 +95,22 @@ namespace TrackingTool6.Controler
             db.SaveChanges();
             MessageBox.Show("Loja Removida", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return null;
+        }
+
+        public static void EditarLoja(Loja loja)
+        {
+            banco db = SingletonObjectContext.Instance.Context;
+            
+            try
+            {
+                db.SaveChanges();
+            }
+
+            catch
+            {
+                MessageBox.Show("Erro");
+            }
+
         }
     }
 }

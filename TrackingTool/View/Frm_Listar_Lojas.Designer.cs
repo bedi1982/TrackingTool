@@ -1,4 +1,4 @@
-﻿namespace TrackingTool6.View
+﻿namespace Tracking.View
 {
     partial class Frm_Listar_Lojas
     {
@@ -28,108 +28,117 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cNPJDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ruaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bairroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numeroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lojasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet = new TrackingTool6._TrackingTool6_db_TrackingToolEntitiesDataSet();
-            this.lojasTableAdapter = new TrackingTool6._TrackingTool6_db_TrackingToolEntitiesDataSetTableAdapters.LojasTableAdapter();
+            this.grid_listar_lojas = new System.Windows.Forms.DataGridView();
+            this.IdLoja = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cnpj = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EmailLoja = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rua = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bairro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NumeroLoja = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ComplementoLoja = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BtnOK = new System.Windows.Forms.Button();
-            this.lojas_com_Saldo_ZeradoToolStrip = new System.Windows.Forms.ToolStrip();
-            this.lojas_com_Saldo_ZeradoToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.lojas_com_Saldo_PositivoToolStrip = new System.Windows.Forms.ToolStrip();
-            this.lojas_com_Saldo_PositivoToolStripButton = new System.Windows.Forms.ToolStripButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojasBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._TrackingTool6_db_TrackingToolEntitiesDataSet)).BeginInit();
-            this.lojas_com_Saldo_ZeradoToolStrip.SuspendLayout();
-            this.lojas_com_Saldo_PositivoToolStrip.SuspendLayout();
+            this.txtArquivoExcel = new System.Windows.Forms.TextBox();
+            this.BtnExcel = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_listar_lojas)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // grid_listar_lojas
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.cNPJDataGridViewTextBoxColumn,
-            this.telefoneDataGridViewTextBoxColumn,
-            this.ruaDataGridViewTextBoxColumn,
-            this.bairroDataGridViewTextBoxColumn,
-            this.numeroDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.lojasBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 53);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(756, 350);
-            this.dataGridView1.TabIndex = 0;
+            this.grid_listar_lojas.AllowUserToAddRows = false;
+            this.grid_listar_lojas.AllowUserToDeleteRows = false;
+            this.grid_listar_lojas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_listar_lojas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.IdLoja,
+            this.codigo,
+            this.nome,
+            this.cnpj,
+            this.tel,
+            this.EmailLoja,
+            this.rua,
+            this.bairro,
+            this.NumeroLoja,
+            this.ComplementoLoja});
+            this.grid_listar_lojas.Location = new System.Drawing.Point(0, 0);
+            this.grid_listar_lojas.Name = "grid_listar_lojas";
+            this.grid_listar_lojas.ReadOnly = true;
+            this.grid_listar_lojas.Size = new System.Drawing.Size(1184, 630);
+            this.grid_listar_lojas.TabIndex = 0;
             // 
-            // idDataGridViewTextBoxColumn
+            // IdLoja
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.IdLoja.HeaderText = "ID";
+            this.IdLoja.Name = "IdLoja";
+            this.IdLoja.ReadOnly = true;
+            this.IdLoja.Width = 50;
             // 
-            // nomeDataGridViewTextBoxColumn
+            // codigo
             // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "nome";
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+            this.codigo.HeaderText = "Código";
+            this.codigo.Name = "codigo";
+            this.codigo.ReadOnly = true;
+            this.codigo.Width = 50;
             // 
-            // cNPJDataGridViewTextBoxColumn
+            // nome
             // 
-            this.cNPJDataGridViewTextBoxColumn.DataPropertyName = "CNPJ";
-            this.cNPJDataGridViewTextBoxColumn.HeaderText = "CNPJ";
-            this.cNPJDataGridViewTextBoxColumn.Name = "cNPJDataGridViewTextBoxColumn";
+            this.nome.HeaderText = "Nome";
+            this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
+            this.nome.Width = 160;
             // 
-            // telefoneDataGridViewTextBoxColumn
+            // cnpj
             // 
-            this.telefoneDataGridViewTextBoxColumn.DataPropertyName = "telefone";
-            this.telefoneDataGridViewTextBoxColumn.HeaderText = "telefone";
-            this.telefoneDataGridViewTextBoxColumn.Name = "telefoneDataGridViewTextBoxColumn";
+            this.cnpj.HeaderText = "CNPJ";
+            this.cnpj.Name = "cnpj";
+            this.cnpj.ReadOnly = true;
+            this.cnpj.Width = 150;
             // 
-            // ruaDataGridViewTextBoxColumn
+            // tel
             // 
-            this.ruaDataGridViewTextBoxColumn.DataPropertyName = "rua";
-            this.ruaDataGridViewTextBoxColumn.HeaderText = "rua";
-            this.ruaDataGridViewTextBoxColumn.Name = "ruaDataGridViewTextBoxColumn";
+            this.tel.HeaderText = "Tel.";
+            this.tel.Name = "tel";
+            this.tel.ReadOnly = true;
             // 
-            // bairroDataGridViewTextBoxColumn
+            // EmailLoja
             // 
-            this.bairroDataGridViewTextBoxColumn.DataPropertyName = "bairro";
-            this.bairroDataGridViewTextBoxColumn.HeaderText = "bairro";
-            this.bairroDataGridViewTextBoxColumn.Name = "bairroDataGridViewTextBoxColumn";
+            this.EmailLoja.HeaderText = "Email";
+            this.EmailLoja.Name = "EmailLoja";
+            this.EmailLoja.ReadOnly = true;
             // 
-            // numeroDataGridViewTextBoxColumn
+            // rua
             // 
-            this.numeroDataGridViewTextBoxColumn.DataPropertyName = "codigo_hiperfarma";
-            this.numeroDataGridViewTextBoxColumn.HeaderText = "codigo_hiperfarma";
-            this.numeroDataGridViewTextBoxColumn.Name = "numeroDataGridViewTextBoxColumn";
+            this.rua.HeaderText = "Rua";
+            this.rua.Name = "rua";
+            this.rua.ReadOnly = true;
+            this.rua.Width = 180;
             // 
-            // lojasBindingSource
+            // bairro
             // 
-            this.lojasBindingSource.DataMember = "Lojas";
-            this.lojasBindingSource.DataSource = this._TrackingTool6_db_TrackingToolEntitiesDataSet;
+            this.bairro.HeaderText = "Bairro";
+            this.bairro.Name = "bairro";
+            this.bairro.ReadOnly = true;
+            this.bairro.Width = 150;
             // 
-            // _TrackingTool6_db_TrackingToolEntitiesDataSet
+            // NumeroLoja
             // 
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet.DataSetName = "_TrackingTool6_db_TrackingToolEntitiesDataSet";
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.NumeroLoja.HeaderText = "Número";
+            this.NumeroLoja.Name = "NumeroLoja";
+            this.NumeroLoja.ReadOnly = true;
+            this.NumeroLoja.Width = 80;
             // 
-            // lojasTableAdapter
+            // ComplementoLoja
             // 
-            this.lojasTableAdapter.ClearBeforeFill = true;
+            this.ComplementoLoja.HeaderText = "Complemento";
+            this.ComplementoLoja.Name = "ComplementoLoja";
+            this.ComplementoLoja.ReadOnly = true;
+            this.ComplementoLoja.Width = 120;
             // 
             // BtnOK
             // 
-            this.BtnOK.Location = new System.Drawing.Point(693, 409);
+            this.BtnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOK.Location = new System.Drawing.Point(1097, 645);
             this.BtnOK.Name = "BtnOK";
             this.BtnOK.Size = new System.Drawing.Size(75, 23);
             this.BtnOK.TabIndex = 1;
@@ -137,62 +146,43 @@
             this.BtnOK.UseVisualStyleBackColor = true;
             this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
             // 
-            // lojas_com_Saldo_ZeradoToolStrip
+            // txtArquivoExcel
             // 
-            this.lojas_com_Saldo_ZeradoToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lojas_com_Saldo_ZeradoToolStripButton});
-            this.lojas_com_Saldo_ZeradoToolStrip.Location = new System.Drawing.Point(0, 0);
-            this.lojas_com_Saldo_ZeradoToolStrip.Name = "lojas_com_Saldo_ZeradoToolStrip";
-            this.lojas_com_Saldo_ZeradoToolStrip.Size = new System.Drawing.Size(788, 25);
-            this.lojas_com_Saldo_ZeradoToolStrip.TabIndex = 2;
-            this.lojas_com_Saldo_ZeradoToolStrip.Text = "lojas_com_Saldo_ZeradoToolStrip";
+            this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtArquivoExcel.Location = new System.Drawing.Point(11, 644);
+            this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.txtArquivoExcel.Name = "txtArquivoExcel";
+            this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
+            this.txtArquivoExcel.TabIndex = 6;
+            this.txtArquivoExcel.Text = "C:\\Users\\Thiago\\Desktop\\Lojas";
             // 
-            // lojas_com_Saldo_ZeradoToolStripButton
+            // BtnExcel
             // 
-            this.lojas_com_Saldo_ZeradoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.lojas_com_Saldo_ZeradoToolStripButton.Name = "lojas_com_Saldo_ZeradoToolStripButton";
-            this.lojas_com_Saldo_ZeradoToolStripButton.Size = new System.Drawing.Size(225, 22);
-            this.lojas_com_Saldo_ZeradoToolStripButton.Text = "Clique para listas as  Lojas com Saldo Zerado";
-            this.lojas_com_Saldo_ZeradoToolStripButton.Click += new System.EventHandler(this.lojas_com_Saldo_ZeradoToolStripButton_Click);
-            // 
-            // lojas_com_Saldo_PositivoToolStrip
-            // 
-            this.lojas_com_Saldo_PositivoToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lojas_com_Saldo_PositivoToolStripButton});
-            this.lojas_com_Saldo_PositivoToolStrip.Location = new System.Drawing.Point(0, 25);
-            this.lojas_com_Saldo_PositivoToolStrip.Name = "lojas_com_Saldo_PositivoToolStrip";
-            this.lojas_com_Saldo_PositivoToolStrip.Size = new System.Drawing.Size(788, 25);
-            this.lojas_com_Saldo_PositivoToolStrip.TabIndex = 3;
-            this.lojas_com_Saldo_PositivoToolStrip.Text = "lojas_com_Saldo_PositivoToolStrip";
-            // 
-            // lojas_com_Saldo_PositivoToolStripButton
-            // 
-            this.lojas_com_Saldo_PositivoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.lojas_com_Saldo_PositivoToolStripButton.Name = "lojas_com_Saldo_PositivoToolStripButton";
-            this.lojas_com_Saldo_PositivoToolStripButton.Size = new System.Drawing.Size(225, 22);
-            this.lojas_com_Saldo_PositivoToolStripButton.Text = "Clique para listas as Lojas com Saldo Positivo";
-            this.lojas_com_Saldo_PositivoToolStripButton.Click += new System.EventHandler(this.lojas_com_Saldo_PositivoToolStripButton_Click);
+            this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExcel.ForeColor = System.Drawing.Color.Black;
+            this.BtnExcel.Location = new System.Drawing.Point(348, 645);
+            this.BtnExcel.Name = "BtnExcel";
+            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.TabIndex = 7;
+            this.BtnExcel.TabStop = false;
+            this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.UseVisualStyleBackColor = true;
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // Frm_Listar_Lojas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(788, 452);
-            this.Controls.Add(this.lojas_com_Saldo_PositivoToolStrip);
-            this.Controls.Add(this.lojas_com_Saldo_ZeradoToolStrip);
+            this.ClientSize = new System.Drawing.Size(1184, 679);
+            this.Controls.Add(this.txtArquivoExcel);
+            this.Controls.Add(this.BtnExcel);
             this.Controls.Add(this.BtnOK);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grid_listar_lojas);
             this.Name = "Frm_Listar_Lojas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listar Lojas";
             this.Load += new System.EventHandler(this.Frm_Listar_Lojas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojasBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._TrackingTool6_db_TrackingToolEntitiesDataSet)).EndInit();
-            this.lojas_com_Saldo_ZeradoToolStrip.ResumeLayout(false);
-            this.lojas_com_Saldo_ZeradoToolStrip.PerformLayout();
-            this.lojas_com_Saldo_PositivoToolStrip.ResumeLayout(false);
-            this.lojas_com_Saldo_PositivoToolStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_listar_lojas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,21 +190,19 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private _TrackingTool6_db_TrackingToolEntitiesDataSet _TrackingTool6_db_TrackingToolEntitiesDataSet;
-        private System.Windows.Forms.BindingSource lojasBindingSource;
-        private _TrackingTool6_db_TrackingToolEntitiesDataSetTableAdapters.LojasTableAdapter lojasTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cNPJDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ruaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numeroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView grid_listar_lojas;
         private System.Windows.Forms.Button BtnOK;
-        private System.Windows.Forms.ToolStrip lojas_com_Saldo_ZeradoToolStrip;
-        private System.Windows.Forms.ToolStripButton lojas_com_Saldo_ZeradoToolStripButton;
-        private System.Windows.Forms.ToolStrip lojas_com_Saldo_PositivoToolStrip;
-        private System.Windows.Forms.ToolStripButton lojas_com_Saldo_PositivoToolStripButton;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdLoja;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cnpj;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmailLoja;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rua;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bairro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NumeroLoja;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ComplementoLoja;
+        private System.Windows.Forms.TextBox txtArquivoExcel;
+        private System.Windows.Forms.Button BtnExcel;
     }
 }

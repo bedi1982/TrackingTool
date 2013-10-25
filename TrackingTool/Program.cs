@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using TrackingTool6.View;
+using Tracking.View;
 
-namespace TrackingTool6
+namespace Tracking
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace TrackingTool6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.Frm_Main());
+            Application.Run(new View.Frm_Tela_Login());
         }
     }
 }

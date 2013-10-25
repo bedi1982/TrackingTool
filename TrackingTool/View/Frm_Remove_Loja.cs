@@ -6,16 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using TrackingTool6.Model;
-using TrackingTool6.Controler;
+using Tracking.Model;
+using Tracking.Controler;
 
-namespace TrackingTool6.View
+namespace Tracking.View
 {
     public partial class Frm_Remove_loja : Form
     {
         Loja loja = new Loja();
 
-        public void Frn_Remove_Loja()
+        public void Frm_Remove_Loja()
         {
             InitializeComponent();
         }

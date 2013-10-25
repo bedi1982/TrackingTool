@@ -1,4 +1,4 @@
-﻿namespace TrackingTool6.View
+﻿namespace Tracking.View
 {
     partial class Frm_Listar_Fornecedores
     {
@@ -28,137 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.codigohiperfarmaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cNPJDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefoneResDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ruaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bairroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numeroenderecoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.complementoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.fornecedorBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet1 = new TrackingTool6._TrackingTool6_db_TrackingToolEntitiesDataSet();
-            this.fornecedorTableAdapter = new TrackingTool6._TrackingTool6_db_TrackingToolEntitiesDataSetTableAdapters.FornecedorTableAdapter();
             this.BtnOK = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lista_removidosToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.lista_removidosToolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.lista_apenas_os_com_status_não_falseToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.lista_apenas_os_com_status_não_falseToolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fornecedorBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._TrackingTool6_db_TrackingToolEntitiesDataSet1)).BeginInit();
-            this.lista_removidosToolStrip1.SuspendLayout();
-            this.lista_apenas_os_com_status_não_falseToolStrip1.SuspendLayout();
+            this.grid_lista_fornecedores = new System.Windows.Forms.DataGridView();
+            this.IdForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cnpj = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EmailForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rua = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bairro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.complemento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtArquivoExcel = new System.Windows.Forms.TextBox();
+            this.BtnExcel = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_lista_fornecedores)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.codigohiperfarmaDataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.cNPJDataGridViewTextBoxColumn,
-            this.telefoneResDataGridViewTextBoxColumn,
-            this.ruaDataGridViewTextBoxColumn,
-            this.bairroDataGridViewTextBoxColumn,
-            this.numeroenderecoDataGridViewTextBoxColumn,
-            this.complementoDataGridViewTextBoxColumn,
-            this.statusDataGridViewCheckBoxColumn});
-            this.dataGridView1.DataSource = this.fornecedorBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 53);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(947, 440);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // codigohiperfarmaDataGridViewTextBoxColumn
-            // 
-            this.codigohiperfarmaDataGridViewTextBoxColumn.DataPropertyName = "codigo_hiperfarma";
-            this.codigohiperfarmaDataGridViewTextBoxColumn.HeaderText = "codigo_hiperfarma";
-            this.codigohiperfarmaDataGridViewTextBoxColumn.Name = "codigohiperfarmaDataGridViewTextBoxColumn";
-            this.codigohiperfarmaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nomeDataGridViewTextBoxColumn
-            // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "nome";
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
-            this.nomeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cNPJDataGridViewTextBoxColumn
-            // 
-            this.cNPJDataGridViewTextBoxColumn.DataPropertyName = "CNPJ";
-            this.cNPJDataGridViewTextBoxColumn.HeaderText = "CNPJ";
-            this.cNPJDataGridViewTextBoxColumn.Name = "cNPJDataGridViewTextBoxColumn";
-            this.cNPJDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // telefoneResDataGridViewTextBoxColumn
-            // 
-            this.telefoneResDataGridViewTextBoxColumn.DataPropertyName = "telefoneRes";
-            this.telefoneResDataGridViewTextBoxColumn.HeaderText = "telefoneRes";
-            this.telefoneResDataGridViewTextBoxColumn.Name = "telefoneResDataGridViewTextBoxColumn";
-            this.telefoneResDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ruaDataGridViewTextBoxColumn
-            // 
-            this.ruaDataGridViewTextBoxColumn.DataPropertyName = "rua";
-            this.ruaDataGridViewTextBoxColumn.HeaderText = "rua";
-            this.ruaDataGridViewTextBoxColumn.Name = "ruaDataGridViewTextBoxColumn";
-            this.ruaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // bairroDataGridViewTextBoxColumn
-            // 
-            this.bairroDataGridViewTextBoxColumn.DataPropertyName = "bairro";
-            this.bairroDataGridViewTextBoxColumn.HeaderText = "bairro";
-            this.bairroDataGridViewTextBoxColumn.Name = "bairroDataGridViewTextBoxColumn";
-            this.bairroDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // numeroenderecoDataGridViewTextBoxColumn
-            // 
-            this.numeroenderecoDataGridViewTextBoxColumn.DataPropertyName = "numero_endereco";
-            this.numeroenderecoDataGridViewTextBoxColumn.HeaderText = "numero_endereco";
-            this.numeroenderecoDataGridViewTextBoxColumn.Name = "numeroenderecoDataGridViewTextBoxColumn";
-            this.numeroenderecoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // complementoDataGridViewTextBoxColumn
-            // 
-            this.complementoDataGridViewTextBoxColumn.DataPropertyName = "complemento";
-            this.complementoDataGridViewTextBoxColumn.HeaderText = "complemento";
-            this.complementoDataGridViewTextBoxColumn.Name = "complementoDataGridViewTextBoxColumn";
-            this.complementoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // statusDataGridViewCheckBoxColumn
-            // 
-            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "status";
-            this.statusDataGridViewCheckBoxColumn.FalseValue = "Removido";
-            this.statusDataGridViewCheckBoxColumn.HeaderText = "status";
-            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
-            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
-            // 
-            // fornecedorBindingSource1
-            // 
-            this.fornecedorBindingSource1.DataMember = "Fornecedor";
-            this.fornecedorBindingSource1.DataSource = this._TrackingTool6_db_TrackingToolEntitiesDataSet1;
-            // 
-            // _TrackingTool6_db_TrackingToolEntitiesDataSet1
-            // 
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet1.DataSetName = "_TrackingTool6_db_TrackingToolEntitiesDataSet";
-            this._TrackingTool6_db_TrackingToolEntitiesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // fornecedorTableAdapter
-            // 
-            this.fornecedorTableAdapter.ClearBeforeFill = true;
             // 
             // BtnOK
             // 
-            this.BtnOK.Location = new System.Drawing.Point(872, 499);
+            this.BtnOK.Location = new System.Drawing.Point(898, 554);
             this.BtnOK.Name = "BtnOK";
             this.BtnOK.Size = new System.Drawing.Size(75, 23);
             this.BtnOK.TabIndex = 1;
@@ -166,75 +56,148 @@
             this.BtnOK.UseVisualStyleBackColor = true;
             this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
             // 
-            // label1
+            // grid_lista_fornecedores
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(301, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Aqui você pode ver vários relatórios sobre seus Fornecedores:";
+            this.grid_lista_fornecedores.AllowUserToAddRows = false;
+            this.grid_lista_fornecedores.AllowUserToDeleteRows = false;
+            this.grid_lista_fornecedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_lista_fornecedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.IdForn,
+            this.codigo,
+            this.nome,
+            this.cnpj,
+            this.tel,
+            this.EmailForn,
+            this.rua,
+            this.bairro,
+            this.numero,
+            this.complemento});
+            this.grid_lista_fornecedores.Location = new System.Drawing.Point(0, 0);
+            this.grid_lista_fornecedores.Name = "grid_lista_fornecedores";
+            this.grid_lista_fornecedores.ReadOnly = true;
+            this.grid_lista_fornecedores.Size = new System.Drawing.Size(1184, 630);
+            this.grid_lista_fornecedores.TabIndex = 2;
             // 
-            // lista_removidosToolStrip1
+            // IdForn
             // 
-            this.lista_removidosToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lista_removidosToolStripButton1});
-            this.lista_removidosToolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.lista_removidosToolStrip1.Name = "lista_removidosToolStrip1";
-            this.lista_removidosToolStrip1.Size = new System.Drawing.Size(967, 25);
-            this.lista_removidosToolStrip1.TabIndex = 6;
-            this.lista_removidosToolStrip1.Text = "Listar Apenas Removidos";
+            this.IdForn.HeaderText = "ID";
+            this.IdForn.Name = "IdForn";
+            this.IdForn.ReadOnly = true;
+            this.IdForn.Width = 50;
             // 
-            // lista_removidosToolStripButton1
+            // codigo
             // 
-            this.lista_removidosToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.lista_removidosToolStripButton1.Name = "lista_removidosToolStripButton1";
-            this.lista_removidosToolStripButton1.Size = new System.Drawing.Size(215, 22);
-            this.lista_removidosToolStripButton1.Text = "Clique para listar Fornecedores Removidos";
-            this.lista_removidosToolStripButton1.ToolTipText = "Clique para listar todos os Fornecedores Removidos do Sistema";
-            this.lista_removidosToolStripButton1.Click += new System.EventHandler(this.lista_removidosToolStripButton1_Click);
+            this.codigo.HeaderText = "Código";
+            this.codigo.Name = "codigo";
+            this.codigo.ReadOnly = true;
+            this.codigo.Width = 60;
             // 
-            // lista_apenas_os_com_status_não_falseToolStrip1
+            // nome
             // 
-            this.lista_apenas_os_com_status_não_falseToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lista_apenas_os_com_status_não_falseToolStripButton1});
-            this.lista_apenas_os_com_status_não_falseToolStrip1.Location = new System.Drawing.Point(0, 25);
-            this.lista_apenas_os_com_status_não_falseToolStrip1.Name = "lista_apenas_os_com_status_não_falseToolStrip1";
-            this.lista_apenas_os_com_status_não_falseToolStrip1.Size = new System.Drawing.Size(967, 25);
-            this.lista_apenas_os_com_status_não_falseToolStrip1.TabIndex = 7;
-            this.lista_apenas_os_com_status_não_falseToolStrip1.Text = "lista_apenas_os_com_status_não_falseToolStrip1";
+            this.nome.HeaderText = "Nome";
+            this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
+            this.nome.Width = 180;
             // 
-            // lista_apenas_os_com_status_não_falseToolStripButton1
+            // cnpj
             // 
-            this.lista_apenas_os_com_status_não_falseToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.lista_apenas_os_com_status_não_falseToolStripButton1.Name = "lista_apenas_os_com_status_não_falseToolStripButton1";
-            this.lista_apenas_os_com_status_não_falseToolStripButton1.Size = new System.Drawing.Size(204, 22);
-            this.lista_apenas_os_com_status_não_falseToolStripButton1.Text = "Clique para listar todos os Fornecedores";
-            this.lista_apenas_os_com_status_não_falseToolStripButton1.Click += new System.EventHandler(this.lista_apenas_os_com_status_não_falseToolStripButton1_Click_1);
+            this.cnpj.HeaderText = "CNPJ";
+            this.cnpj.Name = "cnpj";
+            this.cnpj.ReadOnly = true;
+            this.cnpj.Width = 130;
+            // 
+            // tel
+            // 
+            this.tel.HeaderText = "Tel.";
+            this.tel.Name = "tel";
+            this.tel.ReadOnly = true;
+            // 
+            // EmailForn
+            // 
+            this.EmailForn.HeaderText = "Email";
+            this.EmailForn.Name = "EmailForn";
+            this.EmailForn.ReadOnly = true;
+            // 
+            // rua
+            // 
+            this.rua.HeaderText = "Rua";
+            this.rua.Name = "rua";
+            this.rua.ReadOnly = true;
+            this.rua.Width = 200;
+            // 
+            // bairro
+            // 
+            this.bairro.HeaderText = "Bairro";
+            this.bairro.Name = "bairro";
+            this.bairro.ReadOnly = true;
+            this.bairro.Width = 150;
+            // 
+            // numero
+            // 
+            this.numero.HeaderText = "Número";
+            this.numero.Name = "numero";
+            this.numero.ReadOnly = true;
+            this.numero.Width = 60;
+            // 
+            // complemento
+            // 
+            this.complemento.HeaderText = "Complemento";
+            this.complemento.Name = "complemento";
+            this.complemento.ReadOnly = true;
+            this.complemento.Width = 110;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1097, 644);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "OK";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtArquivoExcel
+            // 
+            this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtArquivoExcel.Location = new System.Drawing.Point(11, 644);
+            this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.txtArquivoExcel.Name = "txtArquivoExcel";
+            this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
+            this.txtArquivoExcel.TabIndex = 4;
+            this.txtArquivoExcel.Text = "C:\\Users\\Thiago\\Desktop\\Fornecedores";
+            this.txtArquivoExcel.TextChanged += new System.EventHandler(this.txtArquivoExcel_TextChanged);
+            // 
+            // BtnExcel
+            // 
+            this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExcel.ForeColor = System.Drawing.Color.Black;
+            this.BtnExcel.Location = new System.Drawing.Point(345, 645);
+            this.BtnExcel.Name = "BtnExcel";
+            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.TabIndex = 5;
+            this.BtnExcel.TabStop = false;
+            this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.UseVisualStyleBackColor = true;
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // Frm_Listar_Fornecedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(967, 542);
-            this.Controls.Add(this.lista_apenas_os_com_status_não_falseToolStrip1);
-            this.Controls.Add(this.lista_removidosToolStrip1);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(1184, 679);
+            this.Controls.Add(this.txtArquivoExcel);
+            this.Controls.Add(this.BtnExcel);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.grid_lista_fornecedores);
             this.Controls.Add(this.BtnOK);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "Frm_Listar_Fornecedores";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Fornecedores";
             this.Load += new System.EventHandler(this.Frm_Lista_Fornecedores_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fornecedorBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._TrackingTool6_db_TrackingToolEntitiesDataSet1)).EndInit();
-            this.lista_removidosToolStrip1.ResumeLayout(false);
-            this.lista_removidosToolStrip1.PerformLayout();
-            this.lista_apenas_os_com_status_não_falseToolStrip1.ResumeLayout(false);
-            this.lista_apenas_os_com_status_não_falseToolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_lista_fornecedores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,26 +205,20 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private _TrackingTool6_db_TrackingToolEntitiesDataSetTableAdapters.FornecedorTableAdapter fornecedorTableAdapter;
-        private _TrackingTool6_db_TrackingToolEntitiesDataSet _TrackingTool6_db_TrackingToolEntitiesDataSet1;
-        private System.Windows.Forms.BindingSource fornecedorBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefoneCelDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button BtnOK;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn codigohiperfarmaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cNPJDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefoneResDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ruaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numeroenderecoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn complementoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.ToolStrip lista_removidosToolStrip1;
-        private System.Windows.Forms.ToolStripButton lista_removidosToolStripButton1;
-        private System.Windows.Forms.ToolStrip lista_apenas_os_com_status_não_falseToolStrip1;
-        private System.Windows.Forms.ToolStripButton lista_apenas_os_com_status_não_falseToolStripButton1;
-
+        private System.Windows.Forms.DataGridView grid_lista_fornecedores;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdForn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cnpj;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmailForn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rua;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bairro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numero;
+        private System.Windows.Forms.DataGridViewTextBoxColumn complemento;
+        private System.Windows.Forms.TextBox txtArquivoExcel;
+        private System.Windows.Forms.Button BtnExcel;
     }
 }

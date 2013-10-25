@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TrackingTool6.Model
+namespace Tracking.Model
 {
     class ContaReceber
     {
@@ -15,12 +15,13 @@ namespace TrackingTool6.Model
         public DateTime dataCadastrado { set; get; }
         public String descricao { set; get; }
         public String centroCusto { set; get; }
-        //refere-se a código de barras
+        //código refere-se a código de barras
         public String codigo { set; get; }
         public String tipo { set; get; }
         public String loja { set; get; }
+        public String fornecedor { set; get; }
 
-        //false para conta não recebida e 
+        //false para conta ainda não recebida e 
         //true para conta recebida - 
         //Sempre é inicializada como não recebida//
         public Boolean status { set; get; }

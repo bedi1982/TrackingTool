@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TrackingTool6.Model
+namespace Tracking.Model
 {
 
     public class CentroDeCusto
@@ -11,7 +11,7 @@ namespace TrackingTool6.Model
         public int id { set; get; }
         public String nome { set; get; }
         public String descricao { set; get; }
-        public int codigo_hiperfarma { set; get; }
+        public String codigo_hiperfarma { set; get; }
         public double saldo { set; get; }
         
         //true para ativo e 

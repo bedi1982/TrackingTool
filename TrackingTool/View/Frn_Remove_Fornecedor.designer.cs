@@ -1,4 +1,4 @@
-﻿namespace TrackingTool6.View
+﻿namespace Tracking.View
 {
     partial class Frn_Remove_Fornecedor
     {
@@ -42,11 +42,8 @@
             this.Lbl_codigo = new System.Windows.Forms.Label();
             this.btn_Sair = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.iniciarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_remover = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_tel_contato_forn
@@ -95,6 +92,7 @@
             // 
             // btn_limpar
             // 
+            this.btn_limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limpar.Location = new System.Drawing.Point(289, 134);
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.Size = new System.Drawing.Size(75, 23);
@@ -105,6 +103,7 @@
             // 
             // btn_procurar_por_nome
             // 
+            this.btn_procurar_por_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_procurar_por_nome.Location = new System.Drawing.Point(289, 52);
             this.btn_procurar_por_nome.Name = "btn_procurar_por_nome";
             this.btn_procurar_por_nome.Size = new System.Drawing.Size(75, 23);
@@ -133,6 +132,7 @@
             // 
             // btn_procurar
             // 
+            this.btn_procurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_procurar.Location = new System.Drawing.Point(289, 23);
             this.btn_procurar.Name = "btn_procurar";
             this.btn_procurar.Size = new System.Drawing.Size(75, 23);
@@ -147,7 +147,7 @@
             this.Lbl_tel_cel_forn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_tel_cel_forn.Location = new System.Drawing.Point(6, 108);
             this.Lbl_tel_cel_forn.Name = "Lbl_tel_cel_forn";
-            this.Lbl_tel_cel_forn.Size = new System.Drawing.Size(82, 16);
+            this.Lbl_tel_cel_forn.Size = new System.Drawing.Size(81, 16);
             this.Lbl_tel_cel_forn.TabIndex = 6;
             this.Lbl_tel_cel_forn.Text = "Tel. Contato:";
             // 
@@ -173,6 +173,7 @@
             // 
             // btn_Sair
             // 
+            this.btn_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sair.Location = new System.Drawing.Point(302, 202);
             this.btn_Sair.Name = "btn_Sair";
             this.btn_Sair.Size = new System.Drawing.Size(75, 23);
@@ -183,29 +184,15 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.iniciarToolStripMenuItem,
-            this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(395, 24);
             this.menuStrip1.TabIndex = 23;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // iniciarToolStripMenuItem
-            // 
-            this.iniciarToolStripMenuItem.Name = "iniciarToolStripMenuItem";
-            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.iniciarToolStripMenuItem.Text = "Iniciar";
-            // 
-            // ajudaToolStripMenuItem
-            // 
-            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.ajudaToolStripMenuItem.Text = "Ajuda";
-            // 
             // btn_remover
             // 
+            this.btn_remover.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_remover.Location = new System.Drawing.Point(221, 202);
             this.btn_remover.Name = "btn_remover";
             this.btn_remover.Size = new System.Drawing.Size(75, 23);
@@ -224,11 +211,10 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frn_Remove_Fornecedor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Remover Fornecedor";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,8 +232,6 @@
         private System.Windows.Forms.Button btn_Sair;
         private System.Windows.Forms.Button btn_procurar;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem iniciarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.Label lbl_nome;
         private System.Windows.Forms.TextBox txt_Nome_forn;
         private System.Windows.Forms.Button btn_procurar_por_nome;

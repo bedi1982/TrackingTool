@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TrackingTool6.Properties {
+namespace Tracking.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,22 @@ namespace TrackingTool6.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SAMBAFILES;Initial Catalog=TrackingTool6.db.TrackingToolEntities;Inte" +
-            "grated Security=True")]
-        public string TrackingTool6_db_TrackingToolEntitiesConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\sqlexpress;Initial Catalog=banco.TT.TT_banco;Integrated Security=Tr" +
+            "ue")]
+        public string banco {
             get {
-                return ((string)(this["TrackingTool6_db_TrackingToolEntitiesConnectionString"]));
+                return ((string)(this["banco"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\sqlexpress;Initial Catalog=Tracking.Tool.banco;Integrated Security=" +
+            "True")]
+        public string database {
+            get {
+                return ((string)(this["database"]));
             }
         }
     }
