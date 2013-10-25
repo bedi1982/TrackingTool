@@ -1,0 +1,612 @@
+C:\Users\bedi\Desktop\TrackingTool\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.Properties.Resources.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_listar_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Remove_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Remove_loja.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frm_Main.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Desktop\TrackingTool\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool\bin\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool 1.0\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Desktop\TrackingTool 1.0\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.0\bin\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool 1.0\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.0\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.0\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.1\bin\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool 1.1\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.1\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.1\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool 1.1.1 - Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Dropbox\PAP\TrackingTool 1.1.1 - Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool 1.1.1 - Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1.1 - Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Desktop\TrackingTool 1.1.1 - Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.1.1 - Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\bin\Debug\TrackingTool.application
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Desktop\TrackingTool 1.1.2\obj\x86\Debug\TrackingTool.application
+C:\Users\Gilson\Dropbox\PAP\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Gilson\Dropbox\PAP\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Gilson\Dropbox\PAP\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.3 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.4 Travado(Thiago)\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.5 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.6 Travado(Thiago)\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.1.9 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.0 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remove_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.1.1 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.3 Travado(Buglist)\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.1 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.5.2 Liberado\obj\x86\Debug\Tracking.View.Frm_Sobre.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Sobre.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.6 Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool 1.0.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool 1.2.8 Liberado\obj\x86\Debug\TrackingTool.application
