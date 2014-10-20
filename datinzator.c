@@ -36,7 +36,7 @@ int question(){
 }
 
 void luser(){
-	printf("Only 1 and 2 are valid values, are you dumb? Try again:\n");
+	printf("Only 1 and 2 are valid values. Try again:\n");
 }
 
 
