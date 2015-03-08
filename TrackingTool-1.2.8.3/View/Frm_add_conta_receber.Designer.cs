@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_add_conta_receber));
             this.GBDadosConta = new System.Windows.Forms.GroupBox();
             this.BtnFornContas = new System.Windows.Forms.Button();
             this.BtnLojasContas = new System.Windows.Forms.Button();
@@ -58,6 +59,8 @@
             this.LblCentroCusto = new System.Windows.Forms.Label();
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.GridContasReceber = new System.Windows.Forms.DataGridView();
+            this.BtnExcluir = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataCad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Data = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -68,9 +71,9 @@
             this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CentroCusto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BtnExcluir = new System.Windows.Forms.Button();
             this.GBDadosConta.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridContasReceber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // GBDadosConta
@@ -102,9 +105,9 @@
             this.GBDadosConta.Controls.Add(this.BtnProcurar);
             this.GBDadosConta.Controls.Add(this.TxtCentroCusto);
             this.GBDadosConta.Controls.Add(this.LblCentroCusto);
-            this.GBDadosConta.Location = new System.Drawing.Point(174, 12);
+            this.GBDadosConta.Location = new System.Drawing.Point(12, 12);
             this.GBDadosConta.Name = "GBDadosConta";
-            this.GBDadosConta.Size = new System.Drawing.Size(726, 286);
+            this.GBDadosConta.Size = new System.Drawing.Size(766, 286);
             this.GBDadosConta.TabIndex = 0;
             this.GBDadosConta.TabStop = false;
             this.GBDadosConta.Text = "Dados da Conta";
@@ -219,11 +222,26 @@
             // 
             this.CBTipo.FormattingEnabled = true;
             this.CBTipo.Items.AddRange(new object[] {
-            "EVENTUAL",
-            "MENSALIDADE"});
+            "Depósito não Indentificado",
+            "Empréstimos entre C/C",
+            "Estorno Despesas",
+            "Mensalidade",
+            "Recebimento Convênio",
+            "Reemb. Refeição Colab. Eurofarma",
+            "Rend. Aplic. Financeiro",
+            "Repasse Fornec. p/ Sede",
+            "Repasse Fornec. p/ Associados",
+            "Transferência p/ Poupança",
+            "Transf. mens./desp./outros entre C/C",
+            "Venda Produtos - Em Dinheiro/CH",
+            "Venda Produtos - Via Cartão de Débito",
+            "Verba MKTG - Negociação",
+            "Verba MKTG - Planejamento",
+            "Verba MKTG - Tablóide",
+            "Verba MKTG - Outros Eventos"});
             this.CBTipo.Location = new System.Drawing.Point(459, 93);
             this.CBTipo.Name = "CBTipo";
-            this.CBTipo.Size = new System.Drawing.Size(121, 21);
+            this.CBTipo.Size = new System.Drawing.Size(199, 21);
             this.CBTipo.TabIndex = 4;
             // 
             // LblCodigo
@@ -247,11 +265,14 @@
             // BtnAtualizar
             // 
             this.BtnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAtualizar.Location = new System.Drawing.Point(620, 257);
+            this.BtnAtualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAtualizar.Image")));
+            this.BtnAtualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAtualizar.Location = new System.Drawing.Point(643, 247);
             this.BtnAtualizar.Name = "BtnAtualizar";
-            this.BtnAtualizar.Size = new System.Drawing.Size(92, 23);
+            this.BtnAtualizar.Size = new System.Drawing.Size(117, 33);
             this.BtnAtualizar.TabIndex = 12;
             this.BtnAtualizar.Text = "Atualizar lista";
+            this.BtnAtualizar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnAtualizar.UseVisualStyleBackColor = true;
             this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
             // 
@@ -268,19 +289,22 @@
             this.LblData.Font = new System.Drawing.Font("Arial", 9.75F);
             this.LblData.Location = new System.Drawing.Point(310, 192);
             this.LblData.Name = "LblData";
-            this.LblData.Size = new System.Drawing.Size(127, 16);
+            this.LblData.Size = new System.Drawing.Size(129, 16);
             this.LblData.TabIndex = 14;
-            this.LblData.Text = "Data do Pagamento:";
+            this.LblData.Text = "Data de Vencimento:";
             // 
             // BtnAdd
             // 
             this.BtnAdd.Enabled = false;
             this.BtnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAdd.Location = new System.Drawing.Point(539, 257);
+            this.BtnAdd.Image = ((System.Drawing.Image)(resources.GetObject("BtnAdd.Image")));
+            this.BtnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAdd.Location = new System.Drawing.Point(543, 247);
             this.BtnAdd.Name = "BtnAdd";
-            this.BtnAdd.Size = new System.Drawing.Size(75, 23);
+            this.BtnAdd.Size = new System.Drawing.Size(94, 33);
             this.BtnAdd.TabIndex = 11;
             this.BtnAdd.Text = "Adicionar";
+            this.BtnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnAdd.UseVisualStyleBackColor = true;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
@@ -344,20 +368,23 @@
             // BtnProcurar
             // 
             this.BtnProcurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnProcurar.Location = new System.Drawing.Point(459, 27);
+            this.BtnProcurar.Image = ((System.Drawing.Image)(resources.GetObject("BtnProcurar.Image")));
+            this.BtnProcurar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnProcurar.Location = new System.Drawing.Point(465, 22);
             this.BtnProcurar.Name = "BtnProcurar";
-            this.BtnProcurar.Size = new System.Drawing.Size(75, 23);
+            this.BtnProcurar.Size = new System.Drawing.Size(94, 33);
             this.BtnProcurar.TabIndex = 2;
             this.BtnProcurar.Text = "Procurar";
+            this.BtnProcurar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnProcurar.UseVisualStyleBackColor = true;
             this.BtnProcurar.Click += new System.EventHandler(this.BtnProcurar_Click);
             // 
             // TxtCentroCusto
             // 
             this.TxtCentroCusto.AcceptsTab = true;
-            this.TxtCentroCusto.Location = new System.Drawing.Point(191, 29);
+            this.TxtCentroCusto.Location = new System.Drawing.Point(197, 29);
             this.TxtCentroCusto.Name = "TxtCentroCusto";
-            this.TxtCentroCusto.Size = new System.Drawing.Size(250, 20);
+            this.TxtCentroCusto.Size = new System.Drawing.Size(262, 20);
             this.TxtCentroCusto.TabIndex = 1;
             // 
             // LblCentroCusto
@@ -373,11 +400,14 @@
             // BtnVoltar
             // 
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnVoltar.Location = new System.Drawing.Point(928, 516);
+            this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
+            this.BtnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnVoltar.Location = new System.Drawing.Point(928, 564);
             this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(75, 23);
+            this.BtnVoltar.Size = new System.Drawing.Size(94, 33);
             this.BtnVoltar.TabIndex = 13;
             this.BtnVoltar.Text = "Voltar";
+            this.BtnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVoltar.UseVisualStyleBackColor = true;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
@@ -395,12 +425,37 @@
             this.tipo,
             this.CentroCusto,
             this.Valor});
-            this.GridContasReceber.Location = new System.Drawing.Point(13, 304);
+            this.GridContasReceber.Location = new System.Drawing.Point(12, 304);
             this.GridContasReceber.MultiSelect = false;
             this.GridContasReceber.Name = "GridContasReceber";
             this.GridContasReceber.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.GridContasReceber.Size = new System.Drawing.Size(990, 194);
+            this.GridContasReceber.Size = new System.Drawing.Size(1010, 254);
             this.GridContasReceber.TabIndex = 8;
+            // 
+            // BtnExcluir
+            // 
+            this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExcluir.ForeColor = System.Drawing.Color.Red;
+            this.BtnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcluir.Image")));
+            this.BtnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcluir.Location = new System.Drawing.Point(13, 564);
+            this.BtnExcluir.Name = "BtnExcluir";
+            this.BtnExcluir.Size = new System.Drawing.Size(113, 33);
+            this.BtnExcluir.TabIndex = 26;
+            this.BtnExcluir.TabStop = false;
+            this.BtnExcluir.Text = "Excluir Conta";
+            this.BtnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(784, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(81, 65);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
             // 
             // id
             // 
@@ -415,14 +470,15 @@
             // 
             this.dataCad.HeaderText = "Data de Cadastro";
             this.dataCad.Name = "dataCad";
+            this.dataCad.Width = 118;
             // 
             // Data
             // 
             this.Data.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Data.HeaderText = "Data do Pagamento";
+            this.Data.HeaderText = "Data de Vencimento";
             this.Data.Name = "Data";
             this.Data.ReadOnly = true;
-            this.Data.Width = 116;
+            this.Data.Width = 118;
             // 
             // codigo
             // 
@@ -454,8 +510,9 @@
             // 
             // CentroCusto
             // 
-            this.CentroCusto.HeaderText = "Centro de Custo";
+            this.CentroCusto.HeaderText = "Centro de Custo de Crédito";
             this.CentroCusto.Name = "CentroCusto";
+            this.CentroCusto.Width = 120;
             // 
             // Valor
             // 
@@ -463,25 +520,14 @@
             this.Valor.Name = "Valor";
             this.Valor.ReadOnly = true;
             this.Valor.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // BtnExcluir
-            // 
-            this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnExcluir.Location = new System.Drawing.Point(13, 516);
-            this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(103, 23);
-            this.BtnExcluir.TabIndex = 26;
-            this.BtnExcluir.TabStop = false;
-            this.BtnExcluir.Text = "Excluir Conta";
-            this.BtnExcluir.UseVisualStyleBackColor = true;
-            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
+            this.Valor.Width = 80;
             // 
             // Frm_add_conta_receber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 551);
+            this.ClientSize = new System.Drawing.Size(1037, 609);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnExcluir);
             this.Controls.Add(this.GridContasReceber);
             this.Controls.Add(this.BtnVoltar);
@@ -492,6 +538,7 @@
             this.GBDadosConta.ResumeLayout(false);
             this.GBDadosConta.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridContasReceber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -527,6 +574,9 @@
         private System.Windows.Forms.Button BtnProcurarForn;
         private System.Windows.Forms.Label LblCodFornecedor;
         private System.Windows.Forms.TextBox TxtProcurarForn;
+        private System.Windows.Forms.Button BtnFornContas;
+        private System.Windows.Forms.Button BtnLojasContas;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataCad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Data;
@@ -537,8 +587,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn CentroCusto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
-        private System.Windows.Forms.Button BtnFornContas;
-        private System.Windows.Forms.Button BtnLojasContas;
 
     }
 }

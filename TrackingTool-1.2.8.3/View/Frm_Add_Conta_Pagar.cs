@@ -85,7 +85,8 @@ namespace Tracking.View
                     if(TxtLojaDescricao.Text.Length == 0){
                         contaPagar.loja = "---";
                     }
-                    else{
+                    else
+                    {
                         contaPagar.loja = TxtLojaDescricao.Text;
                     }
                     
@@ -96,12 +97,10 @@ namespace Tracking.View
                     {
                        contaPagar.fornecedor = TxtFornecedorDescricao.Text;
                     }
-
-
                     try
                     {
                         ContaPagarDAO.AdicionaContaPagar(contaPagar);
-                        MessageBox.Show("Conta Adicionada ao Banco");
+                        MessageBox.Show("Conta a Pagar Registrada!");
 
 
                         banco db = SingletonObjectContext.Instance.Context;
@@ -113,8 +112,6 @@ namespace Tracking.View
                                 DGContasPagar.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor,x.tipo, x.descricao, x.centroCusto, x.valor);
                             }
                         }
-
-
                         TxtCentroCusto.Clear();
                         TxtSaldo.Clear();
                         TxtCodigo.Clear();
@@ -124,9 +121,7 @@ namespace Tracking.View
                         TxtDescricao.Clear();
                         TxtLojaDescricao.Clear();
                         TxtLojaProcura.Clear();
-
                     }
-
                     catch
                     {
                         MessageBox.Show("Conta não Adicionada", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -144,7 +139,6 @@ namespace Tracking.View
             {
 
                 MessageBox.Show("O código do fornecedor está em branco");
-
             }
             else
             {
@@ -156,14 +150,13 @@ namespace Tracking.View
                 if (forn != null)
                 {
                     TxtFornecedorDescricao.Text = forn.nome.ToString();
-
                 }
                 else
                 {
                     MessageBox.Show("Fornecedor não Encontrado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-}
+        }
 
         private void BtnAtualizar_Click(object sender, EventArgs e)
         {
@@ -205,8 +198,6 @@ namespace Tracking.View
             {
                 MessageBox.Show("Nem uma conta foi selecionada para excluir", "Aviso");
             }
-
-
         }
 
         private void BtnProcuraLoja_Click(object sender, EventArgs e)
@@ -214,24 +205,21 @@ namespace Tracking.View
             Loja loja = new Loja();
             
             if(TxtLojaProcura.Text == ""){
-
                 MessageBox.Show("O código da loja está em branco");
-            
             }
             else
             {
-            loja.codigo_hiperfarma = TxtLojaProcura.Text;
-            loja = LojaDAO.Procurar_Loja_por_codigo_hiperfarma(loja);
-                           
-            
-            if (loja != null)
-            {
+                loja.codigo_hiperfarma = TxtLojaProcura.Text;
+                loja = LojaDAO.Procurar_Loja_por_codigo_hiperfarma(loja);
+                
+                if (loja != null)
+                {
                 TxtLojaDescricao.Text = loja.nome.ToString();
-            }
-            else
-            {
+                }
+                else
+                {
                 MessageBox.Show("Loja não Encontrada", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                }
             }
         }
 
@@ -239,13 +227,10 @@ namespace Tracking.View
         {
             int asc = (int)e.KeyChar;
 
-
             if (!char.IsDigit(e.KeyChar) && asc != 08 && asc != 127 && asc != 44 && asc != 46)
             {
-
                 e.Handled = true;
                 MessageBox.Show("O Campo Valor aceita apenas números virgulas e pontos");
-
             }
         }
 
@@ -259,6 +244,11 @@ namespace Tracking.View
         {
             Frm_ListarFornContas forn = new Frm_ListarFornContas();
             forn.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
               
     }

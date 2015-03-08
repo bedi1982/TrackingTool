@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_listar_CDC));
             this.button1 = new System.Windows.Forms.Button();
             this.grid_listar_cdcs = new System.Windows.Forms.DataGridView();
             this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,11 +43,14 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(204, 311);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(457, 323);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(55, 33);
             this.button1.TabIndex = 1;
             this.button1.Text = "OK";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -60,7 +64,7 @@
             this.nome,
             this.descricao,
             this.saldo});
-            this.grid_listar_cdcs.Location = new System.Drawing.Point(0, 0);
+            this.grid_listar_cdcs.Location = new System.Drawing.Point(11, 12);
             this.grid_listar_cdcs.Name = "grid_listar_cdcs";
             this.grid_listar_cdcs.ReadOnly = true;
             this.grid_listar_cdcs.Size = new System.Drawing.Size(504, 305);
@@ -97,7 +101,7 @@
             // txtArquivoExcel
             // 
             this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtArquivoExcel.Location = new System.Drawing.Point(11, 369);
+            this.txtArquivoExcel.Location = new System.Drawing.Point(10, 378);
             this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
             this.txtArquivoExcel.Name = "txtArquivoExcel";
             this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
@@ -108,12 +112,15 @@
             // 
             this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcel.ForeColor = System.Drawing.Color.Black;
-            this.BtnExcel.Location = new System.Drawing.Point(345, 369);
+            this.BtnExcel.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.Image")));
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcel.Location = new System.Drawing.Point(344, 370);
             this.BtnExcel.Name = "BtnExcel";
-            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.Size = new System.Drawing.Size(126, 32);
             this.BtnExcel.TabIndex = 8;
             this.BtnExcel.TabStop = false;
             this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcel.UseVisualStyleBackColor = true;
             this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
@@ -121,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 405);
+            this.ClientSize = new System.Drawing.Size(524, 418);
             this.Controls.Add(this.txtArquivoExcel);
             this.Controls.Add(this.BtnExcel);
             this.Controls.Add(this.grid_listar_cdcs);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Movimentacao_financeira));
             this.DGMovimentacao = new System.Windows.Forms.DataGridView();
             this.ContaMF = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.saldoMV = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -103,18 +104,22 @@
             // 
             // BtnOK
             // 
-            this.BtnOK.Location = new System.Drawing.Point(827, 304);
+            this.BtnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOK.Image = ((System.Drawing.Image)(resources.GetObject("BtnOK.Image")));
+            this.BtnOK.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnOK.Location = new System.Drawing.Point(848, 291);
             this.BtnOK.Name = "BtnOK";
-            this.BtnOK.Size = new System.Drawing.Size(75, 23);
+            this.BtnOK.Size = new System.Drawing.Size(54, 33);
             this.BtnOK.TabIndex = 1;
             this.BtnOK.Text = "OK";
+            this.BtnOK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnOK.UseVisualStyleBackColor = true;
             this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
             // 
             // txtArquivoExcel
             // 
             this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtArquivoExcel.Location = new System.Drawing.Point(12, 303);
+            this.txtArquivoExcel.Location = new System.Drawing.Point(12, 299);
             this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
             this.txtArquivoExcel.Name = "txtArquivoExcel";
             this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
@@ -125,24 +130,29 @@
             // 
             this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcel.ForeColor = System.Drawing.Color.Black;
-            this.BtnExcel.Location = new System.Drawing.Point(349, 304);
+            this.BtnExcel.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.Image")));
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcel.Location = new System.Drawing.Point(346, 295);
             this.BtnExcel.Name = "BtnExcel";
-            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.Size = new System.Drawing.Size(126, 32);
             this.BtnExcel.TabIndex = 9;
             this.BtnExcel.TabStop = false;
             this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcel.UseVisualStyleBackColor = true;
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // Frm_Movimentacao_financeira
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 339);
+            this.ClientSize = new System.Drawing.Size(914, 343);
             this.Controls.Add(this.txtArquivoExcel);
             this.Controls.Add(this.BtnExcel);
             this.Controls.Add(this.BtnOK);
             this.Controls.Add(this.DGMovimentacao);
             this.Name = "Frm_Movimentacao_financeira";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Movimentação Financeira";
             ((System.ComponentModel.ISupportInitialize)(this.DGMovimentacao)).EndInit();
             this.ResumeLayout(false);

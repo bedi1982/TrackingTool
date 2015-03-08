@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Adicionar_Loja));
             this.LbAddForn = new System.Windows.Forms.Label();
             this.txtNome_loja = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -183,22 +184,28 @@
             // btn_adicionar_loja
             // 
             this.btn_adicionar_loja.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_adicionar_loja.Location = new System.Drawing.Point(187, 410);
+            this.btn_adicionar_loja.Image = ((System.Drawing.Image)(resources.GetObject("btn_adicionar_loja.Image")));
+            this.btn_adicionar_loja.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_adicionar_loja.Location = new System.Drawing.Point(335, 410);
             this.btn_adicionar_loja.Name = "btn_adicionar_loja";
-            this.btn_adicionar_loja.Size = new System.Drawing.Size(75, 23);
+            this.btn_adicionar_loja.Size = new System.Drawing.Size(94, 33);
             this.btn_adicionar_loja.TabIndex = 12;
             this.btn_adicionar_loja.Text = "Adicionar";
+            this.btn_adicionar_loja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_adicionar_loja.UseVisualStyleBackColor = true;
             this.btn_adicionar_loja.Click += new System.EventHandler(this.btn_adicionar_loja_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(268, 410);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(445, 410);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 13;
             this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -336,7 +343,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 445);
+            this.ClientSize = new System.Drawing.Size(555, 452);
             this.Controls.Add(this.GBEndereco);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_adicionar_loja);

@@ -11,7 +11,5 @@ namespace Tracking.Model
         public int id { set; get; }
         public String usuario { set; get; }
         public String senha { set; get; }
-
-
     }
 }

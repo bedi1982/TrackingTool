@@ -41,7 +41,7 @@
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuario.Location = new System.Drawing.Point(94, 19);
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(194, 26);
@@ -75,6 +75,7 @@
             this.TxtSenha.PasswordChar = '*';
             this.TxtSenha.Size = new System.Drawing.Size(194, 26);
             this.TxtSenha.TabIndex = 3;
+            this.TxtSenha.Tag = "";
             // 
             // BtnLogar
             // 

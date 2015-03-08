@@ -195,7 +195,7 @@ namespace Tracking.View
             }
             catch
             {
-                MessageBox.Show("Nem uma conta foi selecionada para excluir","Aviso");
+                MessageBox.Show("Nenhuma conta foi selecionada para excluir","Aviso");
             }
         }
 
@@ -230,13 +230,10 @@ namespace Tracking.View
         {
             int asc = (int)e.KeyChar;
 
-
             if (!char.IsDigit(e.KeyChar) && asc != 08 && asc != 127 && asc != 44 && asc != 46)
             {
-
                 e.Handled = true;
-                MessageBox.Show("O Campo Valor aceita apenas números virgulas e pontos");
-
+                MessageBox.Show("O Campo Valor aceita apenas números, vírgulas e pontos");
             }
         }
 
@@ -251,57 +248,5 @@ namespace Tracking.View
             Frm_ListarFornContas forn = new Frm_ListarFornContas();
             forn.Show();
         }
-
-        
-
-       
-
-        /*
-        private void BtnOK_Click(object sender, EventArgs e)
-        {
-            int row = GridContasReceber.CurrentRow.Index;
-
-            ContaReceber conta_receber = new ContaReceber();
-
-            conta_receber.id = int.Parse(GridContasReceber.Rows[row].Cells[0].Value.ToString());
-            conta_receber = ContaReceberDAO.Procurar_Conta_por_id(conta_receber);
-
-            ContaReceberDAO.ReceberConta(conta_receber);
-
-            //Procura o centro de custo a partir da linha selecionada
-            
-            String centro;
-            centro = GridContasReceber.Rows[row].Cells[4].Value.ToString();
-            
-            CentroDeCusto centro_de_custo = new CentroDeCusto();
-            centro_de_custo.nome = centro;
-            centro_de_custo = Centro_de_CustoDAO.Procurar_CDC_por_nome(centro_de_custo);
-            
-            Centro_de_CustoDAO.AdicionaValorAoCDC(centro_de_custo);
-            //
-            GridContasReceber.Rows.Remove(GridContasReceber.Rows[row]);
-            
-
-            MessageBox.Show("Conta com valor modificado", "Aviso");
-            MessageBox.Show("Conta Recebida com Sucesso", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-           
-
-            TxtCentroCusto.Enabled = true;
-            TxtCodigo.Enabled = true;
-            TxtLojaProcura.Enabled = true;
-            TxtValor.Enabled = true;
-            TxtDescricao.Enabled = true;
-            DataCadastro.Enabled = true;
-            TxtDescricao.Enabled = true;
-
-            BtnProcurar.Enabled = true;
-            CBTipo.Enabled = true;
-            BtnProcuraLoja.Enabled = true;
-            BtnAdd.Enabled = true;
-            BtnAtualizar.Enabled = true;
-            BtnContaRecebida.Enabled = true;
-            BtnExcluir.Enabled = true;
-        }*/
     }
 }

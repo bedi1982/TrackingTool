@@ -24,30 +24,42 @@ namespace Tracking.View
             CentroDeCusto  centro_de_custo = new CentroDeCusto();
             if (txtNome_CDC.Text == "" || txt_descricaoCDC.Text == "" || TxtSaldo.Text == "" || txt_numeroCDC.Text == "")
             {
-                MessageBox.Show("Todos os campos são obrigatórios, certifiqui-se que todos os campos foram preenchidos corretamente", "Aviso");
+                MessageBox.Show("Todos os campos são obrigatórios, certifique-se que todos os campos foram preenchidos corretamente", "Aviso");
             }
             else
             {
-                centro_de_custo.nome = txtNome_CDC.Text;
-                centro_de_custo.descricao = txt_descricaoCDC.Text;
-                centro_de_custo.codigo_hiperfarma = txt_numeroCDC.Text;
-                centro_de_custo.status = true;
-                centro_de_custo.saldo = double.Parse(TxtSaldo.Text);
+                DialogResult dialog = new DialogResult();
+                dialog = MessageBox.Show("Cadastrar centro de custo:\n" + txtNome_CDC.Text+" ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                Centro_de_CustoDAO.AdicionaCentroDeCusto(centro_de_custo);
+                if (dialog == DialogResult.Yes)
+                {
+                    centro_de_custo.nome = txtNome_CDC.Text;
+                    centro_de_custo.descricao = txt_descricaoCDC.Text;
+                    centro_de_custo.codigo_hiperfarma = txt_numeroCDC.Text;
+                    centro_de_custo.status = true;
+                    centro_de_custo.saldo = double.Parse(TxtSaldo.Text);
 
-                //limpa campos e foca em nome://
-                txtNome_CDC.Text = "";
-                txt_descricaoCDC.Text = "";
-                txt_numeroCDC.Text = "";
-                txtNome_CDC.Focus();
-                TxtSaldo.Text = "";
+                    Centro_de_CustoDAO.AdicionaCentroDeCusto(centro_de_custo);
+
+                    //limpa campos e foca em nome://
+                    txtNome_CDC.Text = "";
+                    txt_descricaoCDC.Text = "";
+                    txt_numeroCDC.Text = "";
+                    txtNome_CDC.Focus();
+                    TxtSaldo.Text = "";
+                }
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult dialog = new DialogResult();
+            dialog = MessageBox.Show("Deseja abandonar o cadastro de Contas?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void TxtSaldo_KeyPress(object sender, KeyPressEventArgs e)

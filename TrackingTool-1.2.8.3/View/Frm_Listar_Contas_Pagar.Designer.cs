@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Listar_Contas_Pagar));
             this.DGContasAPagar = new System.Windows.Forms.DataGridView();
             this.BtnContaPaga = new System.Windows.Forms.Button();
             this.BtnVoltar = new System.Windows.Forms.Button();
@@ -69,22 +70,25 @@
             this.DescricaoCP,
             this.CentroCustoCP,
             this.ValorCP});
-            this.DGContasAPagar.Location = new System.Drawing.Point(12, 76);
+            this.DGContasAPagar.Location = new System.Drawing.Point(12, 12);
             this.DGContasAPagar.Name = "DGContasAPagar";
             this.DGContasAPagar.ReadOnly = true;
             this.DGContasAPagar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGContasAPagar.Size = new System.Drawing.Size(1087, 519);
+            this.DGContasAPagar.Size = new System.Drawing.Size(1087, 583);
             this.DGContasAPagar.TabIndex = 1;
             // 
             // BtnContaPaga
             // 
             this.BtnContaPaga.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContaPaga.Location = new System.Drawing.Point(484, 636);
+            this.BtnContaPaga.Image = ((System.Drawing.Image)(resources.GetObject("BtnContaPaga.Image")));
+            this.BtnContaPaga.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnContaPaga.Location = new System.Drawing.Point(507, 605);
             this.BtnContaPaga.Name = "BtnContaPaga";
-            this.BtnContaPaga.Size = new System.Drawing.Size(103, 23);
+            this.BtnContaPaga.Size = new System.Drawing.Size(108, 32);
             this.BtnContaPaga.TabIndex = 4;
             this.BtnContaPaga.TabStop = false;
             this.BtnContaPaga.Text = "Pagar Conta";
+            this.BtnContaPaga.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnContaPaga.UseVisualStyleBackColor = true;
             this.BtnContaPaga.Click += new System.EventHandler(this.BtnContaPaga_Click);
             // 
@@ -92,36 +96,45 @@
             // 
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.Black;
-            this.BtnVoltar.Location = new System.Drawing.Point(996, 636);
+            this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
+            this.BtnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnVoltar.Location = new System.Drawing.Point(1005, 650);
             this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(103, 23);
+            this.BtnVoltar.Size = new System.Drawing.Size(94, 33);
             this.BtnVoltar.TabIndex = 5;
             this.BtnVoltar.TabStop = false;
             this.BtnVoltar.Text = "Voltar";
+            this.BtnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVoltar.UseVisualStyleBackColor = true;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
             // BtnExcluir
             // 
             this.BtnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnExcluir.Location = new System.Drawing.Point(12, 636);
+            this.BtnExcluir.ForeColor = System.Drawing.Color.Red;
+            this.BtnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcluir.Image")));
+            this.BtnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcluir.Location = new System.Drawing.Point(12, 650);
             this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcluir.Size = new System.Drawing.Size(113, 33);
             this.BtnExcluir.TabIndex = 30;
             this.BtnExcluir.TabStop = false;
             this.BtnExcluir.Text = "Excluir Conta";
+            this.BtnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcluir.UseVisualStyleBackColor = true;
             this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnOK
             // 
             this.BtnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOK.Location = new System.Drawing.Point(421, 637);
+            this.BtnOK.Image = ((System.Drawing.Image)(resources.GetObject("BtnOK.Image")));
+            this.BtnOK.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnOK.Location = new System.Drawing.Point(421, 650);
             this.BtnOK.Name = "BtnOK";
-            this.BtnOK.Size = new System.Drawing.Size(43, 20);
+            this.BtnOK.Size = new System.Drawing.Size(54, 33);
             this.BtnOK.TabIndex = 35;
             this.BtnOK.Text = "OK";
+            this.BtnOK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnOK.UseVisualStyleBackColor = true;
             this.BtnOK.Visible = false;
             this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
@@ -130,7 +143,7 @@
             // 
             this.TxtNovoValor.AcceptsTab = true;
             this.TxtNovoValor.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.TxtNovoValor.Location = new System.Drawing.Point(291, 633);
+            this.TxtNovoValor.Location = new System.Drawing.Point(282, 653);
             this.TxtNovoValor.Name = "TxtNovoValor";
             this.TxtNovoValor.Size = new System.Drawing.Size(124, 26);
             this.TxtNovoValor.TabIndex = 33;
@@ -140,7 +153,7 @@
             // 
             this.LblNovoValor.AutoSize = true;
             this.LblNovoValor.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.LblNovoValor.Location = new System.Drawing.Point(186, 640);
+            this.LblNovoValor.Location = new System.Drawing.Point(177, 656);
             this.LblNovoValor.Name = "LblNovoValor";
             this.LblNovoValor.Size = new System.Drawing.Size(99, 19);
             this.LblNovoValor.TabIndex = 34;
@@ -151,7 +164,7 @@
             // 
             this.LbPagar.AutoSize = true;
             this.LbPagar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbPagar.Location = new System.Drawing.Point(782, 609);
+            this.LbPagar.Location = new System.Drawing.Point(754, 609);
             this.LbPagar.Name = "LbPagar";
             this.LbPagar.Size = new System.Drawing.Size(157, 19);
             this.LbPagar.TabIndex = 37;
@@ -163,7 +176,7 @@
             this.TxtTotalPagar.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.TxtTotalPagar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.TxtTotalPagar.ForeColor = System.Drawing.Color.Red;
-            this.TxtTotalPagar.Location = new System.Drawing.Point(945, 602);
+            this.TxtTotalPagar.Location = new System.Drawing.Point(917, 606);
             this.TxtTotalPagar.Name = "TxtTotalPagar";
             this.TxtTotalPagar.Size = new System.Drawing.Size(124, 26);
             this.TxtTotalPagar.TabIndex = 36;
@@ -171,7 +184,7 @@
             // txtArquivoExcel
             // 
             this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtArquivoExcel.Location = new System.Drawing.Point(12, 604);
+            this.txtArquivoExcel.Location = new System.Drawing.Point(11, 613);
             this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
             this.txtArquivoExcel.Name = "txtArquivoExcel";
             this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
@@ -182,22 +195,25 @@
             // 
             this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcel.ForeColor = System.Drawing.Color.Black;
+            this.BtnExcel.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.Image")));
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnExcel.Location = new System.Drawing.Point(349, 605);
             this.BtnExcel.Name = "BtnExcel";
-            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.Size = new System.Drawing.Size(126, 32);
             this.BtnExcel.TabIndex = 2;
             this.BtnExcel.TabStop = false;
             this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcel.UseVisualStyleBackColor = true;
             this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // BtnAtualizar
             // 
             this.BtnAtualizar.ForeColor = System.Drawing.Color.Blue;
-            this.BtnAtualizar.Image = global::Tracking.Properties.Resources.reload_arrow;
-            this.BtnAtualizar.Location = new System.Drawing.Point(1072, 605);
+            this.BtnAtualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAtualizar.Image")));
+            this.BtnAtualizar.Location = new System.Drawing.Point(1063, 608);
             this.BtnAtualizar.Name = "BtnAtualizar";
-            this.BtnAtualizar.Size = new System.Drawing.Size(27, 23);
+            this.BtnAtualizar.Size = new System.Drawing.Size(36, 36);
             this.BtnAtualizar.TabIndex = 3;
             this.BtnAtualizar.TabStop = false;
             this.BtnAtualizar.Tag = "";
@@ -221,7 +237,7 @@
             // 
             // dataRecebeCP
             // 
-            this.dataRecebeCP.HeaderText = "Data do Recebimento";
+            this.dataRecebeCP.HeaderText = "Data do Pagamento";
             this.dataRecebeCP.Name = "dataRecebeCP";
             this.dataRecebeCP.ReadOnly = true;
             this.dataRecebeCP.Width = 110;
@@ -274,7 +290,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 671);
+            this.ClientSize = new System.Drawing.Size(1111, 693);
             this.Controls.Add(this.txtArquivoExcel);
             this.Controls.Add(this.BtnExcel);
             this.Controls.Add(this.BtnAtualizar);

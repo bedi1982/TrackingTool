@@ -34,18 +34,25 @@ namespace Tracking.View
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Esta conta será excluida do sistema, está correto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (DGContasReceber.RowCount == 1)
             {
-                int row = DGContasReceber.CurrentRow.Index;
-                //Remove a conta do grid e do Tracking
-                ContaReceber conta_receber = new ContaReceber();
+                MessageBox.Show("A lista de contas está vazia, nada a remover.");
+            }
+            else
+            {
+                if (MessageBox.Show("Esta conta será excluida do sistema, está correto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    int row = DGContasReceber.CurrentRow.Index;
+                    //Remove a conta do grid e do Tracking
+                    ContaReceber conta_receber = new ContaReceber();
 
-                conta_receber.id = int.Parse(DGContasReceber.Rows[row].Cells[0].Value.ToString());
-                conta_receber = ContaReceberDAO.Procurar_Conta_por_id(conta_receber);
+                    conta_receber.id = int.Parse(DGContasReceber.Rows[row].Cells[0].Value.ToString());
+                    conta_receber = ContaReceberDAO.Procurar_Conta_por_id(conta_receber);
 
-                ContaReceberDAO.ExcluirContaReceber(conta_receber);
-                DGContasReceber.Rows.Remove(DGContasReceber.Rows[row]);
-                MessageBox.Show("Conta Removida");
+                    ContaReceberDAO.ExcluirContaReceber(conta_receber);
+                    DGContasReceber.Rows.Remove(DGContasReceber.Rows[row]);
+                    MessageBox.Show("Conta Removida");
+                }
             }
 
         }
@@ -55,17 +62,18 @@ namespace Tracking.View
             int row;
             double valor;
             string centro;
+            try
+            {
+                //row recebe a linha onde está a conta
+                row = DGContasReceber.CurrentRow.Index;
+                valor = double.Parse(DGContasReceber.Rows[row].Cells[9].Value.ToString());
+                centro = DGContasReceber.Rows[row].Cells[8].Value.ToString();
 
-            //row recebe a linha onde está a conta
-            row = DGContasReceber.CurrentRow.Index;
-            valor = double.Parse(DGContasReceber.Rows[row].Cells[9].Value.ToString());
-            centro = DGContasReceber.Rows[row].Cells[8].Value.ToString();
+                //Procura o centro de custo a partir da linha selecionada
 
-            //Procura o centro de custo a partir da linha selecionada
-
-            CentroDeCusto centro_de_custo = new CentroDeCusto();
-            centro_de_custo.nome = centro;
-            centro_de_custo = Centro_de_CustoDAO.Procurar_Centro(centro_de_custo);
+                CentroDeCusto centro_de_custo = new CentroDeCusto();
+                centro_de_custo.nome = centro;
+                centro_de_custo = Centro_de_CustoDAO.Procurar_Centro(centro_de_custo);
 
                 //Remove a conta do grid 
 
@@ -73,48 +81,55 @@ namespace Tracking.View
                 contareceber.id = int.Parse(DGContasReceber.Rows[row].Cells[0].Value.ToString());
 
                 contareceber = ContaReceberDAO.Procurar_Conta_por_id(contareceber);
-
+                
                 //A conta que foi recebida é alterada o status para true no banco
                 //para depois poder ser feito o relatório
 
-                
+
 
                 DialogResult dialog = new DialogResult();
-                dialog = MessageBox.Show("Existe alguma alteração no valor da conta?", "Aviso", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);    
-                
-                if(dialog == DialogResult.Yes){
-                
-                
+                dialog = MessageBox.Show("Existe alguma alteração no valor da conta?", "Aviso", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
-                LblNovoValor.Visible = true;
-                TxtNovoValor.Visible = true;
-                BtnOK.Visible = true;
+                if (dialog == DialogResult.Yes)
+                {
 
 
-                BtnExcluir.Enabled = false;
-                BtnContaRecebida.Enabled = false;
-                    
 
-                                   
+                    LblNovoValor.Visible = true;
+                    TxtNovoValor.Visible = true;
+                    BtnOK.Visible = true;
+
+
+                    BtnExcluir.Enabled = false;
+                    BtnContaRecebida.Enabled = false;
+
+
+
                 }
-                else{
+                else
+                {
                     if (dialog == DialogResult.No)
                     {
                         //A conta que foi recebida recebe o status de true == recebida;
-                                 
+
                         //O centro de custo recebe o valor a ser creditado e faz o update no Tracking
                         centro_de_custo.saldo += valor;
                         Centro_de_CustoDAO.AdicionaValorAoCDC(centro_de_custo);
-                        
+                        contareceber.dataRecebe = DateTime.Now;
                         ContaReceberDAO.ReceberConta(contareceber);
                         //Remove a conta do grid
                         DGContasReceber.Rows.Remove(DGContasReceber.Rows[row]);
 
                         MessageBox.Show("Conta Recebida com Sucesso", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         
+
                     }
-                    
+
                 }
+            }
+            catch
+            {
+                MessageBox.Show("É necessário primeiramente selecionar uma conta a ser recebida", " Aviso");
+            }
                 
                 
         }
@@ -149,6 +164,8 @@ namespace Tracking.View
             //A conta que foi recebida recebe o status de true == recebida;
             contareceber.status = true;
             contareceber.valor = double.Parse(TxtNovoValor.Text.ToString());
+            contareceber.dataRecebe = DateTime.Now;
+            
             centro_de_custo.saldo += double.Parse(TxtNovoValor.Text.ToString());
             Centro_de_CustoDAO.AdicionaValorAoCDC(centro_de_custo);
             ContaReceberDAO.ReceberConta(contareceber);

@@ -40,18 +40,31 @@ namespace Tracking.View
 
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Esta conta será excluida do sistema, está correto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (DGContasAPagar.RowCount == 1)
             {
-                int row = DGContasAPagar.CurrentRow.Index;
-                //Remove a conta do grid e do Tracking
-                ContaAPagar conta_pagar = new ContaAPagar();
+                MessageBox.Show("A lista de contas está vazia, nada a remover.");
+            }
+            else
+            {
+                if (MessageBox.Show("Esta conta será excluida do sistema, está correto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    int row = DGContasAPagar.CurrentRow.Index;
+                    //Remove a conta do grid e do Tracking
+                    ContaAPagar conta_pagar = new ContaAPagar();
 
-                conta_pagar.id = int.Parse(DGContasAPagar.Rows[row].Cells[0].Value.ToString());
-                conta_pagar = ContaPagarDAO.Procurar_Conta_por_id(conta_pagar);
-
-                ContaPagarDAO.ExcluirContaPagar(conta_pagar);
-                DGContasAPagar.Rows.Remove(DGContasAPagar.Rows[row]);
-                MessageBox.Show("Conta Removida");
+                    conta_pagar.id = int.Parse(DGContasAPagar.Rows[row].Cells[0].Value.ToString());
+                    conta_pagar = ContaPagarDAO.Procurar_Conta_por_id(conta_pagar);
+                    if (conta_pagar != null)
+                    {
+                        ContaPagarDAO.ExcluirContaPagar(conta_pagar);
+                        DGContasAPagar.Rows.Remove(DGContasAPagar.Rows[row]);
+                        MessageBox.Show("Conta Removida");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Conta Inexistente");
+                    }
+                }
             }
         }
 
@@ -61,72 +74,72 @@ namespace Tracking.View
             int row;
             double valor;
             string centro;
-
-            //row recebe a linha onde está a conta
-            row = DGContasAPagar.CurrentRow.Index;
-            valor = double.Parse(DGContasAPagar.Rows[row].Cells[9].Value.ToString());
-            centro = DGContasAPagar.Rows[row].Cells[8].Value.ToString();
-
-            //Procura o centro de custo a partir da linha selecionada
-
-            CentroDeCusto centro_de_custo = new CentroDeCusto();
-            centro_de_custo.nome = centro;
-            centro_de_custo = Centro_de_CustoDAO.Procurar_Centro(centro_de_custo);
-
-            ContaAPagar contaPagar = new ContaAPagar();
-            contaPagar.id = int.Parse(DGContasAPagar.Rows[row].Cells[0].Value.ToString());
-
-            contaPagar = ContaPagarDAO.Procurar_Conta_por_id(contaPagar);
-
-            //A conta que foi recebida é alterada o status para true no banco
-            //para depois poder ser feito o relatório
-
-
-            DialogResult dialog = new DialogResult();
-            dialog = MessageBox.Show("Existe alguma alteração no valor da conta?", "Aviso", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
-
-            if (dialog == DialogResult.Yes)
+            try
             {
+                //row recebe a linha onde está a conta
+                row = DGContasAPagar.CurrentRow.Index;
+                valor = double.Parse(DGContasAPagar.Rows[row].Cells[9].Value.ToString());
+                centro = DGContasAPagar.Rows[row].Cells[8].Value.ToString();
+
+                //Procura o centro de custo a partir da linha selecionada
+
+                CentroDeCusto centro_de_custo = new CentroDeCusto();
+                centro_de_custo.nome = centro;
+                centro_de_custo = Centro_de_CustoDAO.Procurar_Centro(centro_de_custo);
+
+                ContaAPagar contaPagar = new ContaAPagar();
+                contaPagar.id = int.Parse(DGContasAPagar.Rows[row].Cells[0].Value.ToString());
+
+                contaPagar = ContaPagarDAO.Procurar_Conta_por_id(contaPagar);
+
+                //A conta que foi recebida é alterada o status para true no banco
+                //para depois poder ser feito o relatório
 
 
+                DialogResult dialog = new DialogResult();
+                dialog = MessageBox.Show("Existe alguma alteração no valor da conta?", "Aviso", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
-                LblNovoValor.Visible = true;
-                TxtNovoValor.Visible = true;
-                BtnOK.Visible = true;
-
-
-                BtnExcluir.Enabled = false;
-                BtnContaPaga.Enabled = false;
-
-
-            }
-
-            else
-            {
-
-                if (dialog == DialogResult.No)
+                if (dialog == DialogResult.Yes)
                 {
+                    LblNovoValor.Visible = true;
+                    TxtNovoValor.Visible = true;
+                    BtnOK.Visible = true;
 
-                    //A conta que foi recebida recebe o status de true == paga;
-
-                    //O valor é retirado do centro de custo e faz o update no banco
-                    if (centro_de_custo.saldo > valor)
-                    {
-                        centro_de_custo.saldo -= valor;
-                        Centro_de_CustoDAO.AdicionaValorAoCDC(centro_de_custo);
-
-                        ContaPagarDAO.PagarConta(contaPagar);
-                        //Remove a conta do grid
-                        DGContasAPagar.Rows.Remove(DGContasAPagar.Rows[row]);
-
-                        MessageBox.Show("Conta Paga com Sucesso", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Este centro de custo não tem saldo suficiente para aceitar o pagamento desta conta", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
+                    BtnExcluir.Enabled = false;
+                    BtnContaPaga.Enabled = false;
                 }
 
+                else
+                {
+
+                    if (dialog == DialogResult.No)
+                    {
+
+                        //A conta que foi recebida recebe o status de true == paga;
+
+                        //O valor é retirado do centro de custo e faz o update no banco
+                        if (centro_de_custo.saldo > valor)
+                        {
+                            centro_de_custo.saldo -= valor;
+                            Centro_de_CustoDAO.AdicionaValorAoCDC(centro_de_custo);
+                            contaPagar.dataRecebe = DateTime.Now;
+                            ContaPagarDAO.PagarConta(contaPagar);
+                            //Remove a conta do grid
+                            DGContasAPagar.Rows.Remove(DGContasAPagar.Rows[row]);
+
+                            MessageBox.Show("Conta Paga com Sucesso", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Este centro de custo não tem saldo suficiente para aceitar o pagamento desta conta", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+
+                }
+            }
+            catch
+            {
+                MessageBox.Show("É necessário primeiramente selecionar uma conta a ser paga"," Aviso");
             }
 
 
@@ -154,6 +167,7 @@ namespace Tracking.View
             contaPagar.id = int.Parse(DGContasAPagar.Rows[row].Cells[0].Value.ToString());
             contaPagar = ContaPagarDAO.Procurar_Conta_por_id(contaPagar);
             contaPagar.valor = double.Parse(TxtNovoValor.Text.ToString());
+            contaPagar.dataRecebe = DateTime.Now;
 
             if (centro_de_custo.saldo > contaPagar.valor)
             {

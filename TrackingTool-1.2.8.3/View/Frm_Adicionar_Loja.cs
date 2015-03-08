@@ -31,64 +31,76 @@ namespace Tracking.View
             }
             else
             {
-                loja.nome = txtNome_loja.Text;
-                loja.CNPJ = txtCnpj_loja.Text;
-                loja.telefone = txtTel_loja.Text;
-                loja.rua = txt_Rua_Loja.Text;
-                loja.bairro = txt_bairro_loja.Text;
-                loja.codigo_hiperfarma = txt_numero_loja.Text;
-                loja.email = TxtEmail.Text;
-                loja.complemento = txtcomplemento.Text;
-                loja.cidade = TxtCidade.Text;
-                loja.UF = TxtUF.Text;
+                DialogResult dialog = new DialogResult();
+                dialog = MessageBox.Show("Deseja cadastrar a Loja:\n" + txtNome_loja.Text + " ?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                if (ValidaCNPJ.IsCnpj(loja.CNPJ))
+                if (dialog == DialogResult.Yes)
                 {
+                    loja.nome = txtNome_loja.Text;
+                    loja.CNPJ = txtCnpj_loja.Text;
+                    loja.telefone = txtTel_loja.Text;
+                    loja.rua = txt_Rua_Loja.Text;
+                    loja.bairro = txt_bairro_loja.Text;
+                    loja.codigo_hiperfarma = txt_numero_loja.Text;
+                    loja.email = TxtEmail.Text;
+                    loja.complemento = txtcomplemento.Text;
+                    loja.cidade = TxtCidade.Text;
+                    loja.UF = TxtUF.Text;
 
-
-
-                    loja.status = true;
-
-                    procura = loja;
-
-                    procura = LojaDAO.Procurar_Loja_por_codigo_hiperfarma(LojaDAO.Procurar_Loja_por_codigo_hiperfarma(procura));
-
-                    if (procura != null)
+                    if (ValidaCNPJ.IsCnpj(loja.CNPJ))
                     {
-                        MessageBox.Show("O código da loja já existe no sistema");
+
+
+
+                        loja.status = true;
+
+                        procura = loja;
+
+                        procura = LojaDAO.Procurar_Loja_por_codigo_hiperfarma(LojaDAO.Procurar_Loja_por_codigo_hiperfarma(procura));
+
+                        if (procura != null)
+                        {
+                            MessageBox.Show("O código da loja já existe no sistema");
+                        }
+                        else
+                        {
+                            LojaDAO.AdicionaLojaEF(loja);
+
+                            //limpa campos e foca em nome://
+                            txtNome_loja.Text = "";
+                            txtCnpj_loja.Text = "";
+                            txtTel_loja.Text = "";
+                            txt_Rua_Loja.Text = "";
+                            txt_bairro_loja.Text = "";
+                            //Nímero de identificação Hiperfarma
+                            txt_numero_loja.Text = "";
+                            TxtEmail.Clear();
+                            txtcomplemento.Clear();
+                            txtNumero_endereco_loja.Clear();
+                            TxtCidade.Clear();
+                            TxtUF.Clear();
+
+                            txtNome_loja.Focus();
+
+                        }
                     }
                     else
                     {
-                        LojaDAO.AdicionaLojaEF(loja);
-
-                        //limpa campos e foca em nome://
-                        txtNome_loja.Text = "";
-                        txtCnpj_loja.Text = "";
-                        txtTel_loja.Text = "";
-                        txt_Rua_Loja.Text = "";
-                        txt_bairro_loja.Text = "";
-                        //Nímero de identificação Hiperfarma
-                        txt_numero_loja.Text = "";
-                        TxtEmail.Clear();
-                        txtcomplemento.Clear();
-                        txtNumero_endereco_loja.Clear();
-                        TxtCidade.Clear();
-                        TxtUF.Clear();
-
-                        txtNome_loja.Focus();
-
+                        MessageBox.Show("O número do CNPJ é Inválido !");
                     }
-                }
-                else
-                {
-                    MessageBox.Show("O número do CNPJ é Inválido !");
                 }
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult dialog = new DialogResult();
+            dialog = MessageBox.Show("Deseja abandonar o cadastro de Loja?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void txtCnpj_loja_KeyPress(object sender, KeyPressEventArgs e)

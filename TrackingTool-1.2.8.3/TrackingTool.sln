@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingTool 1.0", "TrackingTool 1.0.csproj", "{EF4C0443-943D-4089-BB0E-48824FDAD10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingTool 1.2.8.3 - PAP", "TrackingTool 1.2.8.3 - PAP.csproj", "{EF4C0443-943D-4089-BB0E-48824FDAD10A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca 2.1", "..\..\..\Documents\Visual Studio 2010\Projects\Biblioteca 2.1\Biblioteca 2.1\Biblioteca 2.1.csproj", "{35F17453-8D2A-4B1D-8E6A-74A8638168F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{EF4C0443-943D-4089-BB0E-48824FDAD10A}.Debug|x86.Build.0 = Debug|x86
 		{EF4C0443-943D-4089-BB0E-48824FDAD10A}.Release|x86.ActiveCfg = Release|x86
 		{EF4C0443-943D-4089-BB0E-48824FDAD10A}.Release|x86.Build.0 = Release|x86
+		{35F17453-8D2A-4B1D-8E6A-74A8638168F6}.Debug|x86.ActiveCfg = Debug|x86
+		{35F17453-8D2A-4B1D-8E6A-74A8638168F6}.Debug|x86.Build.0 = Debug|x86
+		{35F17453-8D2A-4B1D-8E6A-74A8638168F6}.Release|x86.ActiveCfg = Release|x86
+		{35F17453-8D2A-4B1D-8E6A-74A8638168F6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

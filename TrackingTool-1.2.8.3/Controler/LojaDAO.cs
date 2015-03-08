@@ -18,7 +18,7 @@ namespace Tracking.Controler
             {
                 db.Lojas.Add(loja);
                 db.SaveChanges();
-                MessageBox.Show("Adicionado ao Banco");
+                MessageBox.Show("Loja inclusa com sucesso!");
                 return true;
             }
             catch

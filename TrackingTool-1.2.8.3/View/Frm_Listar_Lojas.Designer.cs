@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Listar_Lojas));
             this.grid_listar_lojas = new System.Windows.Forms.DataGridView();
             this.IdLoja = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -138,11 +139,14 @@
             // BtnOK
             // 
             this.BtnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOK.Image = ((System.Drawing.Image)(resources.GetObject("BtnOK.Image")));
+            this.BtnOK.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnOK.Location = new System.Drawing.Point(1097, 645);
             this.BtnOK.Name = "BtnOK";
-            this.BtnOK.Size = new System.Drawing.Size(75, 23);
+            this.BtnOK.Size = new System.Drawing.Size(54, 33);
             this.BtnOK.TabIndex = 1;
             this.BtnOK.Text = "OK";
+            this.BtnOK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnOK.UseVisualStyleBackColor = true;
             this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
             // 
@@ -160,12 +164,15 @@
             // 
             this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcel.ForeColor = System.Drawing.Color.Black;
-            this.BtnExcel.Location = new System.Drawing.Point(348, 645);
+            this.BtnExcel.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.Image")));
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcel.Location = new System.Drawing.Point(345, 636);
             this.BtnExcel.Name = "BtnExcel";
-            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.Size = new System.Drawing.Size(126, 32);
             this.BtnExcel.TabIndex = 7;
             this.BtnExcel.TabStop = false;
             this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcel.UseVisualStyleBackColor = true;
             this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Adiciona_Centro_de_Custo));
             this.btn_adicionarCDC = new System.Windows.Forms.Button();
             this.LbAddForn = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -46,11 +47,14 @@
             // btn_adicionarCDC
             // 
             this.btn_adicionarCDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_adicionarCDC.Location = new System.Drawing.Point(251, 197);
+            this.btn_adicionarCDC.Image = ((System.Drawing.Image)(resources.GetObject("btn_adicionarCDC.Image")));
+            this.btn_adicionarCDC.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_adicionarCDC.Location = new System.Drawing.Point(213, 197);
             this.btn_adicionarCDC.Name = "btn_adicionarCDC";
-            this.btn_adicionarCDC.Size = new System.Drawing.Size(75, 23);
+            this.btn_adicionarCDC.Size = new System.Drawing.Size(94, 33);
             this.btn_adicionarCDC.TabIndex = 5;
             this.btn_adicionarCDC.Text = "Adicionar";
+            this.btn_adicionarCDC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_adicionarCDC.UseVisualStyleBackColor = true;
             this.btn_adicionarCDC.Click += new System.EventHandler(this.btn_adicionar_centro_de_custo_Click);
             // 
@@ -157,11 +161,14 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(332, 197);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(313, 197);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 6;
             this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

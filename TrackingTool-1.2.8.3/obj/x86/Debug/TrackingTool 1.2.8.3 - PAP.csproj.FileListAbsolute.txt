@@ -1,0 +1,263 @@
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\bin\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool 1.2.8.3 - PAP.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool 1.2.8.3 - PAP.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.application
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.config
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.application
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.pdb
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.application
+C:\Users\Leandro\Dropbox\PAP\TrackingTool Versão PAP - Liberado\bin\Debug\TrackingTool.exe.config
+C:\Users\Leandro\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Leandro\Dropbox\PAP\TrackingTool Versão PAP - Liberado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.config
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.application
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.pdb
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool 1.2.8.3 - PAP.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool 1.2.8.3 - PAP.csproj.GenerateResource.Cache
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\Thiago\Desktop\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.config
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Travado\obj\x86\Debug\TrackingTool.application
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\bin\Debug\TrackingTool.exe.config
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.exe
+C:\Users\Gilson\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\bin\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\bin\Debug\TrackingTool.application
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\bin\Debug\TrackingTool.exe
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\bin\Debug\TrackingTool.pdb
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.Properties.Resources.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_ContasTotal.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Contas_Pagas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Editar_CentroCusto.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Editar_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Editar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_ListarFornContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_ListarLojasContas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_listar_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Listar_Contas_Recebidas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Movimentacao_financeira.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Remover_CDC.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Remover_loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Add_Conta_Pagar.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_add_conta_receber.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Adicionar_Loja.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Centro_de_Custo.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Adiciona_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Listar_Lojas.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Listar_Fornecedores.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Main.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frm_Tela_Login.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\Tracking.View.Frn_Remove_Fornecedor.resources
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bedi\Dropbox\PA
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.exe.manifest
+C:\Users\bedi\Dropbox\PAP\TrackingTool Versão PAP - Arrumado\obj\x86\Debug\TrackingTool.application

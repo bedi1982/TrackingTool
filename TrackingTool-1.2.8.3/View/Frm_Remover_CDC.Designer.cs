@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Remover_CDC));
             this.LbRemoverCDC = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnProcuraCDC = new System.Windows.Forms.Button();
@@ -163,22 +164,28 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(370, 203);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(351, 203);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 28;
             this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_excluirCDC
             // 
             this.btn_excluirCDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_excluirCDC.Location = new System.Drawing.Point(289, 204);
+            this.btn_excluirCDC.Image = ((System.Drawing.Image)(resources.GetObject("btn_excluirCDC.Image")));
+            this.btn_excluirCDC.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_excluirCDC.Location = new System.Drawing.Point(236, 203);
             this.btn_excluirCDC.Name = "btn_excluirCDC";
-            this.btn_excluirCDC.Size = new System.Drawing.Size(75, 23);
+            this.btn_excluirCDC.Size = new System.Drawing.Size(94, 33);
             this.btn_excluirCDC.TabIndex = 27;
             this.btn_excluirCDC.Text = "Excluir";
+            this.btn_excluirCDC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_excluirCDC.UseVisualStyleBackColor = true;
             this.btn_excluirCDC.Click += new System.EventHandler(this.btn_excluirCDC_Click);
             // 

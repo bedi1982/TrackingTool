@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Adiciona_Fornecedor));
             this.LbNome = new System.Windows.Forms.Label();
             this.LbCnpj = new System.Windows.Forms.Label();
             this.LbTel_res_forn = new System.Windows.Forms.Label();
@@ -240,11 +241,14 @@
             // btn_salvar_forn
             // 
             this.btn_salvar_forn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_salvar_forn.Location = new System.Drawing.Point(181, 412);
+            this.btn_salvar_forn.Image = ((System.Drawing.Image)(resources.GetObject("btn_salvar_forn.Image")));
+            this.btn_salvar_forn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_salvar_forn.Location = new System.Drawing.Point(337, 416);
             this.btn_salvar_forn.Name = "btn_salvar_forn";
-            this.btn_salvar_forn.Size = new System.Drawing.Size(75, 21);
+            this.btn_salvar_forn.Size = new System.Drawing.Size(94, 33);
             this.btn_salvar_forn.TabIndex = 12;
             this.btn_salvar_forn.Text = "Adicionar";
+            this.btn_salvar_forn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_salvar_forn.UseVisualStyleBackColor = true;
             this.btn_salvar_forn.Click += new System.EventHandler(this.btn_salvar_forn_Click);
             // 
@@ -324,11 +328,14 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(262, 410);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(449, 416);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 13;
             this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -336,7 +343,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 445);
+            this.ClientSize = new System.Drawing.Size(555, 461);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_salvar_forn);
             this.Controls.Add(this.GbEndereco);

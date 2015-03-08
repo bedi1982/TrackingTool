@@ -28,17 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Listar_Contas_Recebidas));
             this.DGContasReceber = new System.Windows.Forms.DataGridView();
-            this.idCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataCadastradoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataRecebeCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CodigoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LojaCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FornecedorCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DescricaoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TipoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CentroCustoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ValorCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.LbTotal = new System.Windows.Forms.Label();
             this.TxtTotalReceber = new System.Windows.Forms.TextBox();
@@ -55,6 +46,16 @@
             this.LblFornecedor = new System.Windows.Forms.Label();
             this.TxtLoja = new System.Windows.Forms.TextBox();
             this.LblLoja = new System.Windows.Forms.Label();
+            this.idCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataCadastradoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataRecebeCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CodigoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LojaCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FornecedorCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DescricaoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TipoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CentroCustoCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ValorCR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DGContasReceber)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,78 +82,19 @@
             this.DGContasReceber.Size = new System.Drawing.Size(1087, 519);
             this.DGContasReceber.TabIndex = 1;
             // 
-            // idCR
-            // 
-            this.idCR.HeaderText = "ID";
-            this.idCR.Name = "idCR";
-            this.idCR.ReadOnly = true;
-            this.idCR.Width = 80;
-            // 
-            // dataCadastradoCR
-            // 
-            this.dataCadastradoCR.HeaderText = "Data do Cadastro";
-            this.dataCadastradoCR.Name = "dataCadastradoCR";
-            this.dataCadastradoCR.ReadOnly = true;
-            // 
-            // dataRecebeCR
-            // 
-            this.dataRecebeCR.HeaderText = "Data do Recebimento";
-            this.dataRecebeCR.Name = "dataRecebeCR";
-            this.dataRecebeCR.ReadOnly = true;
-            // 
-            // CodigoCR
-            // 
-            this.CodigoCR.HeaderText = "Código";
-            this.CodigoCR.Name = "CodigoCR";
-            this.CodigoCR.ReadOnly = true;
-            // 
-            // LojaCR
-            // 
-            this.LojaCR.HeaderText = "Loja";
-            this.LojaCR.Name = "LojaCR";
-            this.LojaCR.ReadOnly = true;
-            // 
-            // FornecedorCR
-            // 
-            this.FornecedorCR.HeaderText = "Fornecedor";
-            this.FornecedorCR.Name = "FornecedorCR";
-            this.FornecedorCR.ReadOnly = true;
-            // 
-            // DescricaoCR
-            // 
-            this.DescricaoCR.HeaderText = "Descrição da Conta";
-            this.DescricaoCR.Name = "DescricaoCR";
-            this.DescricaoCR.ReadOnly = true;
-            this.DescricaoCR.Width = 160;
-            // 
-            // TipoCR
-            // 
-            this.TipoCR.HeaderText = "Tipo";
-            this.TipoCR.Name = "TipoCR";
-            this.TipoCR.ReadOnly = true;
-            // 
-            // CentroCustoCR
-            // 
-            this.CentroCustoCR.HeaderText = "Centro de Custo";
-            this.CentroCustoCR.Name = "CentroCustoCR";
-            this.CentroCustoCR.ReadOnly = true;
-            // 
-            // ValorCR
-            // 
-            this.ValorCR.HeaderText = "Valor R$";
-            this.ValorCR.Name = "ValorCR";
-            this.ValorCR.ReadOnly = true;
-            // 
             // BtnVoltar
             // 
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.Black;
-            this.BtnVoltar.Location = new System.Drawing.Point(996, 636);
+            this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
+            this.BtnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnVoltar.Location = new System.Drawing.Point(1005, 632);
             this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(103, 23);
+            this.BtnVoltar.Size = new System.Drawing.Size(94, 33);
             this.BtnVoltar.TabIndex = 29;
             this.BtnVoltar.TabStop = false;
             this.BtnVoltar.Text = "Voltar";
+            this.BtnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVoltar.UseVisualStyleBackColor = true;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
@@ -215,31 +157,38 @@
             // 
             this.BtnFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFiltrar.ForeColor = System.Drawing.Color.Black;
-            this.BtnFiltrar.Location = new System.Drawing.Point(783, 16);
+            this.BtnFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnFiltrar.Image")));
+            this.BtnFiltrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnFiltrar.Location = new System.Drawing.Point(875, 19);
             this.BtnFiltrar.Name = "BtnFiltrar";
-            this.BtnFiltrar.Size = new System.Drawing.Size(103, 23);
+            this.BtnFiltrar.Size = new System.Drawing.Size(94, 33);
             this.BtnFiltrar.TabIndex = 43;
             this.BtnFiltrar.TabStop = false;
             this.BtnFiltrar.Text = "Filtrar";
+            this.BtnFiltrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnFiltrar.UseVisualStyleBackColor = true;
+            this.BtnFiltrar.Click += new System.EventHandler(this.BtnFiltrar_Click_1);
             // 
             // BtnExcel
             // 
             this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExcel.ForeColor = System.Drawing.Color.Black;
-            this.BtnExcel.Location = new System.Drawing.Point(346, 604);
+            this.BtnExcel.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.Image")));
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcel.Location = new System.Drawing.Point(345, 607);
             this.BtnExcel.Name = "BtnExcel";
-            this.BtnExcel.Size = new System.Drawing.Size(103, 23);
+            this.BtnExcel.Size = new System.Drawing.Size(126, 32);
             this.BtnExcel.TabIndex = 49;
             this.BtnExcel.TabStop = false;
             this.BtnExcel.Text = "Gerar Relatório";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExcel.UseVisualStyleBackColor = true;
             this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
             // 
             // txtArquivoExcel
             // 
             this.txtArquivoExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtArquivoExcel.Location = new System.Drawing.Point(12, 604);
+            this.txtArquivoExcel.Location = new System.Drawing.Point(11, 615);
             this.txtArquivoExcel.Margin = new System.Windows.Forms.Padding(2);
             this.txtArquivoExcel.Name = "txtArquivoExcel";
             this.txtArquivoExcel.Size = new System.Drawing.Size(329, 24);
@@ -300,6 +249,68 @@
             this.LblLoja.TabIndex = 73;
             this.LblLoja.Text = "Loja:";
             // 
+            // idCR
+            // 
+            this.idCR.HeaderText = "ID";
+            this.idCR.Name = "idCR";
+            this.idCR.ReadOnly = true;
+            this.idCR.Width = 80;
+            // 
+            // dataCadastradoCR
+            // 
+            this.dataCadastradoCR.HeaderText = "Data do Cadastro";
+            this.dataCadastradoCR.Name = "dataCadastradoCR";
+            this.dataCadastradoCR.ReadOnly = true;
+            // 
+            // dataRecebeCR
+            // 
+            this.dataRecebeCR.HeaderText = "Data de Vencimento";
+            this.dataRecebeCR.Name = "dataRecebeCR";
+            this.dataRecebeCR.ReadOnly = true;
+            // 
+            // CodigoCR
+            // 
+            this.CodigoCR.HeaderText = "Código";
+            this.CodigoCR.Name = "CodigoCR";
+            this.CodigoCR.ReadOnly = true;
+            // 
+            // LojaCR
+            // 
+            this.LojaCR.HeaderText = "Loja";
+            this.LojaCR.Name = "LojaCR";
+            this.LojaCR.ReadOnly = true;
+            // 
+            // FornecedorCR
+            // 
+            this.FornecedorCR.HeaderText = "Fornecedor";
+            this.FornecedorCR.Name = "FornecedorCR";
+            this.FornecedorCR.ReadOnly = true;
+            // 
+            // DescricaoCR
+            // 
+            this.DescricaoCR.HeaderText = "Descrição da Conta";
+            this.DescricaoCR.Name = "DescricaoCR";
+            this.DescricaoCR.ReadOnly = true;
+            this.DescricaoCR.Width = 160;
+            // 
+            // TipoCR
+            // 
+            this.TipoCR.HeaderText = "Tipo";
+            this.TipoCR.Name = "TipoCR";
+            this.TipoCR.ReadOnly = true;
+            // 
+            // CentroCustoCR
+            // 
+            this.CentroCustoCR.HeaderText = "Centro de Custo";
+            this.CentroCustoCR.Name = "CentroCustoCR";
+            this.CentroCustoCR.ReadOnly = true;
+            // 
+            // ValorCR
+            // 
+            this.ValorCR.HeaderText = "Valor R$";
+            this.ValorCR.Name = "ValorCR";
+            this.ValorCR.ReadOnly = true;
+            // 
             // Frm_Listar_Contas_Recebidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -344,6 +355,12 @@
         private System.Windows.Forms.Button BtnFiltrar;
         private System.Windows.Forms.Button BtnExcel;
         private System.Windows.Forms.TextBox txtArquivoExcel;
+        private System.Windows.Forms.TextBox TxtCentroCusto;
+        private System.Windows.Forms.Label LbCentroCusto;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label LblFornecedor;
+        private System.Windows.Forms.TextBox TxtLoja;
+        private System.Windows.Forms.Label LblLoja;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCR;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataCadastradoCR;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataRecebeCR;
@@ -354,11 +371,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TipoCR;
         private System.Windows.Forms.DataGridViewTextBoxColumn CentroCustoCR;
         private System.Windows.Forms.DataGridViewTextBoxColumn ValorCR;
-        private System.Windows.Forms.TextBox TxtCentroCusto;
-        private System.Windows.Forms.Label LbCentroCusto;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label LblFornecedor;
-        private System.Windows.Forms.TextBox TxtLoja;
-        private System.Windows.Forms.Label LblLoja;
     }
 }

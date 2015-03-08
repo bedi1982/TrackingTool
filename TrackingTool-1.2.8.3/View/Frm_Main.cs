@@ -57,7 +57,14 @@ namespace Tracking.View
 
         private void BtnClose_Click(object sender, EventArgs e)
         {
-            Close();
+            
+            DialogResult dialog = new DialogResult();
+            dialog = MessageBox.Show("Deseja mesmo sair?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void BtnAddCentroCusto_Click(object sender, EventArgs e)
@@ -278,7 +285,7 @@ namespace Tracking.View
 
         private void sobreToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Gerenciamento Financeiro para Redes Associativas de Farmácias\n\nEste software foi desenvolvido para o trabalho final do curso de Análise e Desenvolvimento de Sistemas da faculdade Positivo\n\nSoftware desenvolvido por:\n\nThiago Fontana Litcha\nSergio Rafael Lemke\nLeandro Kaizer\nLeandro Rafael da Silva\nGilson Waculicz\n\nDúvidas ou sugestões nos envie um email:\n\nthiagoftx@gmail.com\nbedi.com@gmail.com", "Sobre");
+            MessageBox.Show("Gerenciamento Financeiro para Redes Associativas de Farmácias\n\nEste software foi desenvolvido para o trabalho final do curso de Análise e Desenvolvimento de Sistemas da Universidade Positivo\n\nSoftware desenvolvido por:\n\nThiago Fontana Litcha\nSergio Rafael Lemke\nLeandro Kaizer\nLeandro Rafael da Silva\nGilson Waculicz\n\nDúvidas ou sugestões envie um E-mail para:\n\nthiagoftx@gmail.com\nbedi.com@gmail.com", "Sobre");
         }
 
         private void BtnTodasContas_Click(object sender, EventArgs e)
@@ -291,6 +298,11 @@ namespace Tracking.View
         {
             Frm_Movimentacao_financeira mf = new Frm_Movimentacao_financeira();
             mf.Show();
+        }
+
+        private void PicBoxHiper_Click(object sender, EventArgs e)
+        {
+
         }
      }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Editar_Fornecedor));
             this.txtcomplemento_endereco_forn = new System.Windows.Forms.TextBox();
             this.lbComplemento = new System.Windows.Forms.Label();
             this.txtNumero_endereco_forn = new System.Windows.Forms.TextBox();
@@ -93,11 +94,14 @@
             // BtnSair
             // 
             this.BtnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSair.Location = new System.Drawing.Point(471, 463);
+            this.BtnSair.Image = ((System.Drawing.Image)(resources.GetObject("BtnSair.Image")));
+            this.BtnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnSair.Location = new System.Drawing.Point(442, 463);
             this.BtnSair.Name = "BtnSair";
-            this.BtnSair.Size = new System.Drawing.Size(75, 23);
+            this.BtnSair.Size = new System.Drawing.Size(94, 33);
             this.BtnSair.TabIndex = 15;
             this.BtnSair.Text = "Sair";
+            this.BtnSair.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSair.UseVisualStyleBackColor = true;
             this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
             // 
@@ -150,11 +154,14 @@
             // btn_salvar_forn
             // 
             this.btn_salvar_forn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_salvar_forn.Location = new System.Drawing.Point(390, 465);
+            this.btn_salvar_forn.Image = ((System.Drawing.Image)(resources.GetObject("btn_salvar_forn.Image")));
+            this.btn_salvar_forn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_salvar_forn.Location = new System.Drawing.Point(334, 463);
             this.btn_salvar_forn.Name = "btn_salvar_forn";
-            this.btn_salvar_forn.Size = new System.Drawing.Size(75, 21);
+            this.btn_salvar_forn.Size = new System.Drawing.Size(94, 33);
             this.btn_salvar_forn.TabIndex = 14;
             this.btn_salvar_forn.Text = "Salvar";
+            this.btn_salvar_forn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_salvar_forn.UseVisualStyleBackColor = true;
             this.btn_salvar_forn.Click += new System.EventHandler(this.btn_salvar_forn_Click);
             // 
@@ -367,11 +374,14 @@
             // BtnLimpar
             // 
             this.BtnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("BtnLimpar.Image")));
+            this.BtnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnLimpar.Location = new System.Drawing.Point(12, 464);
             this.BtnLimpar.Name = "BtnLimpar";
-            this.BtnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLimpar.Size = new System.Drawing.Size(94, 33);
             this.BtnLimpar.TabIndex = 16;
             this.BtnLimpar.Text = "Limpar";
+            this.BtnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnLimpar.UseVisualStyleBackColor = true;
             this.BtnLimpar.Click += new System.EventHandler(this.BtnLimpar_Click);
             // 

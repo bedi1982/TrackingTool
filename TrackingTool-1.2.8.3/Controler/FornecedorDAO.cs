@@ -18,7 +18,7 @@ namespace Tracking.Controler
             {
                 db.Fornecedores.Add(fornecedor);
                 db.SaveChanges();
-                MessageBox.Show("Adicionado ao Banco");
+                MessageBox.Show("Fornecedor incluso com sucesso!");
             }
             catch
             {

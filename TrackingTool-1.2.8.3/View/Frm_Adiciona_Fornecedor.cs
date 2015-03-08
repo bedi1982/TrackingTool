@@ -33,72 +33,86 @@ namespace Tracking.View
             }
             else
             {
-                Fornecedor fornecedor = new Fornecedor();
-                Fornecedor procura = new Fornecedor();
+                DialogResult dialog = new DialogResult();
+                dialog = MessageBox.Show("Deseja cadastrar o fornecedor?\n"+txtNome_Forn.Text, "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                fornecedor.nome = txtNome_Forn.Text;
-                fornecedor.codigo_hiperfarma = TxtNumID.Text;
-                fornecedor.CNPJ = txtCnpj_forn.Text;
-                fornecedor.telefoneRes = txtTel_Res_forn.Text;
-                fornecedor.rua = txtRua_forn.Text;
-                fornecedor.bairro = txtbairro_forn.Text;
-                fornecedor.numero_endereco = int.Parse(txtNumero_endereco_forn.Text);
-                fornecedor.complemento = txtcomplemento_endereco_forn.Text;
-                fornecedor.status = true;
-                fornecedor.email = TxtEmail.Text;
-                fornecedor.cidade = TxtCidade.Text;
-                fornecedor.UF = TxtUF.Text;
-
-
-
-                if (ValidaCNPJ.IsCnpj(fornecedor.CNPJ))
+                if (dialog == DialogResult.Yes)
                 {
+                    Fornecedor fornecedor = new Fornecedor();
+                    Fornecedor procura = new Fornecedor();
+
+                    fornecedor.nome = txtNome_Forn.Text;
+                    fornecedor.codigo_hiperfarma = TxtNumID.Text;
+                    fornecedor.CNPJ = txtCnpj_forn.Text;
+                    fornecedor.telefoneRes = txtTel_Res_forn.Text;
+                    fornecedor.rua = txtRua_forn.Text;
+                    fornecedor.bairro = txtbairro_forn.Text;
+                    fornecedor.numero_endereco = int.Parse(txtNumero_endereco_forn.Text);
+                    fornecedor.complemento = txtcomplemento_endereco_forn.Text;
+                    fornecedor.status = true;
+                    fornecedor.email = TxtEmail.Text;
+                    fornecedor.cidade = TxtCidade.Text;
+                    fornecedor.UF = TxtUF.Text;
 
 
 
-
-                    procura = fornecedor;
-                    procura = FornecedorDAO.Procurar_Fornecedor_por_codigo_hiperfarma(FornecedorDAO.Procurar_Fornecedor_por_codigo_hiperfarma(procura));
-
-                    if (procura != null)
+                    if (ValidaCNPJ.IsCnpj(fornecedor.CNPJ))
                     {
-                        MessageBox.Show("O código do fornecedor já existe no sistema");
 
+
+
+
+                        procura = fornecedor;
+                        procura = FornecedorDAO.Procurar_Fornecedor_por_codigo_hiperfarma(FornecedorDAO.Procurar_Fornecedor_por_codigo_hiperfarma(procura));
+
+                        if (procura != null)
+                        {
+                            MessageBox.Show("O código do fornecedor já existe no sistema");
+
+                        }
+                        else
+                        {
+                            FornecedorDAO.AdicionaFornecedorEF(fornecedor);
+
+                            //limpa campos e foca em nome://
+                            txtNome_Forn.Clear();
+                            TxtNumID.Clear();
+                            txtCnpj_forn.Clear();
+                            txtTel_Res_forn.Clear();
+                            txtRua_forn.Clear();
+                            txtbairro_forn.Clear();
+                            txtNumero_endereco_forn.Clear();
+                            txtcomplemento_endereco_forn.Clear();
+                            TxtEmail.Clear();
+                            TxtCidade.Clear();
+                            TxtUF.Clear();
+
+
+                            txtNome_Forn.Focus();
+
+                        }
                     }
+
                     else
                     {
-                        FornecedorDAO.AdicionaFornecedorEF(fornecedor);
-
-                        //limpa campos e foca em nome://
-                        txtNome_Forn.Clear();
-                        TxtNumID.Clear();
-                        txtCnpj_forn.Clear();
-                        txtTel_Res_forn.Clear();
-                        txtRua_forn.Clear();
-                        txtbairro_forn.Clear();
-                        txtNumero_endereco_forn.Clear();
-                        txtcomplemento_endereco_forn.Clear();
-                        TxtEmail.Clear();
-                        TxtCidade.Clear();
-                        TxtUF.Clear();
-
-
-                        txtNome_Forn.Focus();
-
+                        MessageBox.Show("O número do CNPJ é Inválido !");
                     }
                 }
-
-                else
-                {
-                    MessageBox.Show("O número do CNPJ é Inválido !");
-                }
             }
+
+
         }
 
         
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult dialog = new DialogResult();
+            dialog = MessageBox.Show("Deseja abandonar o cadastro do fornecedor?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
 

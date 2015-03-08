@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Remover_loja));
             this.btn_remover = new System.Windows.Forms.Button();
             this.btn_Sair = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -49,21 +50,27 @@
             // btn_remover
             // 
             this.btn_remover.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_remover.Location = new System.Drawing.Point(220, 196);
+            this.btn_remover.Image = ((System.Drawing.Image)(resources.GetObject("btn_remover.Image")));
+            this.btn_remover.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_remover.Location = new System.Drawing.Point(178, 196);
             this.btn_remover.Name = "btn_remover";
-            this.btn_remover.Size = new System.Drawing.Size(75, 23);
+            this.btn_remover.Size = new System.Drawing.Size(94, 33);
             this.btn_remover.TabIndex = 24;
             this.btn_remover.Text = "Remover";
+            this.btn_remover.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_remover.Click += new System.EventHandler(this.btn_remover_Click);
             // 
             // btn_Sair
             // 
             this.btn_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Sair.Location = new System.Drawing.Point(301, 196);
+            this.btn_Sair.Image = ((System.Drawing.Image)(resources.GetObject("btn_Sair.Image")));
+            this.btn_Sair.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Sair.Location = new System.Drawing.Point(288, 196);
             this.btn_Sair.Name = "btn_Sair";
-            this.btn_Sair.Size = new System.Drawing.Size(75, 23);
+            this.btn_Sair.Size = new System.Drawing.Size(94, 33);
             this.btn_Sair.TabIndex = 25;
             this.btn_Sair.Text = "Sair";
+            this.btn_Sair.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Sair.UseVisualStyleBackColor = true;
             this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
             // 

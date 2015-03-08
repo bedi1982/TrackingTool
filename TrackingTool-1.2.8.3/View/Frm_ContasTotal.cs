@@ -1,4 +1,4 @@
-﻿using Excel = Microsoft.Office.Interop.Excel; 
+﻿using Excel = Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,9 +19,8 @@ namespace Tracking.View
         public Frm_ContasTotal()
         {
             InitializeComponent();
-            
+
             banco db = SingletonObjectContext.Instance.Context;
-            
             CentroDeCusto centro = new CentroDeCusto();
 
             ArrayList lista = new ArrayList();
@@ -29,11 +28,58 @@ namespace Tracking.View
             {
                 if (x.status == true)
                 {
-                    
                     lista.Add(x.nome);
                 }
             }
             CBCentros.DataSource = lista;
+
+            double pagar = 0;
+            double pago = 0;
+            double receber = 0;
+            double recebido = 0;
+
+            TxtPagar.Text = "";
+            TxtPago.Text = "";
+            TxtReceber.Text = "";
+            TxtRecebido.Text = "";
+
+            DGContasTotal.Rows.Clear();
+
+            foreach (ContaAPagar x in db.ContaAPagar)
+            {
+                if (x.centroCusto == CBCentros.Text && x.status == false)
+                {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "A Pagar");
+                        pagar += x.valor;
+                }
+
+                if (x.centroCusto == CBCentros.Text && x.status == true)
+                {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "Pago");
+                        pago += x.valor;
+                }
+            }
+
+            foreach (ContaReceber x in db.ContaReceber)
+            {
+                if (x.centroCusto == CBCentros.Text && x.status == false)
+                {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "A Receber");
+                        receber += x.valor;
+                }
+                if (x.centroCusto == CBCentros.Text && x.status == true)
+                {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "Recebido");
+                        recebido += x.valor;
+                }
+            }
+
+            TxtPagar.Text = pagar.ToString();
+            TxtPago.Text = pago.ToString();
+            TxtRecebido.Text = recebido.ToString();
+            TxtReceber.Text = receber.ToString();
+
+            MessageBox.Show("A primeira tela lista todas as contas, use um dos filtros disponíveis para resultados mais específicos");
         }
 
         private void BtnOK_Click(object sender, EventArgs e)
@@ -43,9 +89,8 @@ namespace Tracking.View
 
         private void BtnFiltrar_Click(object sender, EventArgs e)
         {
-            
             double pagar = 0;
-            double pago= 0;
+            double pago = 0;
             double receber = 0;
             double recebido = 0;
 
@@ -60,26 +105,38 @@ namespace Tracking.View
             {
                 if (x.centroCusto == CBCentros.Text && x.status == false)
                 {
-                    DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "A Pagar");
-                    pagar += x.valor;
+                    if ((x.dataRecebe.Date >= DateTime.Parse(dateTimePicker1.Text)) && (x.dataRecebe.Date <= DateTime.Parse(dateTimePicker2.Text)))
+                    {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.descricao, x.tipo, x.centroCusto, x.valor, "A Pagar");
+                        pagar += x.valor;
+                    }
                 }
                 if (x.centroCusto == CBCentros.Text && x.status == true)
                 {
-                    DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "Pago");
-                    pago += x.valor;
+                    if ((x.dataRecebe.Date >= DateTime.Parse(dateTimePicker1.Text)) && (x.dataRecebe.Date <= DateTime.Parse(dateTimePicker2.Text)))
+                    {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.descricao, x.tipo, x.centroCusto, x.valor, "Pago");
+                        pago += x.valor;
+                    }
                 }
             }
             foreach (ContaReceber x in db.ContaReceber)
             {
                 if (x.centroCusto == CBCentros.Text && x.status == false)
                 {
-                    DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "A Receber");
-                    receber += x.valor;
+                    if ((x.dataRecebe.Date >= DateTime.Parse(dateTimePicker1.Text)) && (x.dataRecebe.Date <= DateTime.Parse(dateTimePicker2.Text)))
+                    {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.descricao, x.tipo, x.centroCusto, x.valor, "A Receber");
+                        receber += x.valor;
+                    }
                 }
                 if (x.centroCusto == CBCentros.Text && x.status == true)
                 {
-                    DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.tipo, x.descricao, x.centroCusto, x.valor, "A Receber");
-                    recebido += x.valor;
+                    if ((x.dataRecebe.Date >= DateTime.Parse(dateTimePicker1.Text)) && (x.dataRecebe.Date <= DateTime.Parse(dateTimePicker2.Text)))
+                    {
+                        DGContasTotal.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.descricao, x.tipo, x.centroCusto, x.valor, "Recebido");
+                        recebido += x.valor;
+                    }
                 }
             }
 
@@ -89,12 +146,9 @@ namespace Tracking.View
             TxtReceber.Text = receber.ToString();
         }
 
-
-
-
         private void BtnExcel_Click(object sender, EventArgs e)
         {
-                try
+            try
             {
                 Excel.Application xlApp;
                 Excel.Workbook xlWorkBook;
@@ -105,16 +159,16 @@ namespace Tracking.View
                 xlWorkBook = xlApp.Workbooks.Add(misValue);
 
                 xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
-                
-                
+
+
                 xlWorkSheet.Cells[1, 1] = "ID";
                 xlWorkSheet.Cells[1, 2] = "Data do Cadastro";
                 xlWorkSheet.Cells[1, 3] = "Data do Recebimento";
                 xlWorkSheet.Cells[1, 4] = "Código";
                 xlWorkSheet.Cells[1, 5] = "Loja";
                 xlWorkSheet.Cells[1, 6] = "Fornecedor";
-                xlWorkSheet.Cells[1, 7] = "Descrição da Conta";
-                xlWorkSheet.Cells[1, 8] = "Tipo";
+                xlWorkSheet.Cells[1, 8] = "Descrição da Conta";
+                xlWorkSheet.Cells[1, 7] = "Tipo";
                 xlWorkSheet.Cells[1, 9] = "Centro de Custo";
                 xlWorkSheet.Cells[1, 10] = "Valor R$";
                 xlWorkSheet.Cells[1, 11] = "Status";
@@ -133,12 +187,12 @@ namespace Tracking.View
                 xlWorkSheet.Cells[2, 19] = DateTime.Now;
 
                 DataGridViewCell celula = null;
-                
+
 
                 // vamos percorrer as linhas
                 for (int i = 0; i < DGContasTotal.RowCount; i++)
                 {
-                // vamos percorrer as colunas de cada linha
+                    // vamos percorrer as colunas de cada linha
                     for (int x = 0; x < DGContasTotal.ColumnCount; x++)
                     {
                         // obtém a célula na coluna x e linha i
@@ -146,20 +200,20 @@ namespace Tracking.View
 
                         if (celula.Value != null)
                         {
-                            xlWorkSheet.Cells[i+2, x+1] = celula.Value.ToString();
-                            
+                            xlWorkSheet.Cells[i + 2, x + 1] = celula.Value.ToString();
+
                         }
                         else
                         {
-                            
-                        }
-                        
-                    }
-                    
-                }
-                
 
-                
+                        }
+
+                    }
+
+                }
+
+
+
 
                 xlWorkBook.SaveAs(txtArquivoExcel.Text, Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
                 xlWorkBook.Close(true, misValue, misValue);
@@ -194,7 +248,7 @@ namespace Tracking.View
                 GC.Collect();
             }
 
-        
+
         }
     }
 }

@@ -67,6 +67,8 @@
             this.BtnAddLoja = new System.Windows.Forms.Button();
             this.PicBoxHiper = new System.Windows.Forms.PictureBox();
             this.GroupRelatorios = new System.Windows.Forms.GroupBox();
+            this.BtnMF = new System.Windows.Forms.Button();
+            this.BtnTodasContas = new System.Windows.Forms.Button();
             this.BtnContasPagas = new System.Windows.Forms.Button();
             this.BtnContasRecebidas = new System.Windows.Forms.Button();
             this.BtnContaReceber = new System.Windows.Forms.Button();
@@ -80,8 +82,11 @@
             this.txt_a_receber = new System.Windows.Forms.TextBox();
             this.btn_atualizar_balanco = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.BtnTodasContas = new System.Windows.Forms.Button();
-            this.BtnMF = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.GPOperacoes.SuspendLayout();
             this.GBFornecedor.SuspendLayout();
@@ -89,6 +94,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxHiper)).BeginInit();
             this.GroupRelatorios.SuspendLayout();
             this.GroupBalanço.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -102,7 +112,7 @@
             this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(662, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(877, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -280,8 +290,9 @@
             // 
             // sobreToolStripMenuItem1
             // 
+            this.sobreToolStripMenuItem1.AutoSize = false;
             this.sobreToolStripMenuItem1.Name = "sobreToolStripMenuItem1";
-            this.sobreToolStripMenuItem1.Size = new System.Drawing.Size(104, 22);
+            this.sobreToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.sobreToolStripMenuItem1.Text = "Sobre";
             this.sobreToolStripMenuItem1.Click += new System.EventHandler(this.sobreToolStripMenuItem1_Click);
             // 
@@ -291,9 +302,9 @@
             this.GPOperacoes.Controls.Add(this.BtnAddContasReceber);
             this.GPOperacoes.Controls.Add(this.BtnAddContasPagar);
             this.GPOperacoes.Controls.Add(this.button1);
-            this.GPOperacoes.Location = new System.Drawing.Point(12, 35);
+            this.GPOperacoes.Location = new System.Drawing.Point(26, 66);
             this.GPOperacoes.Name = "GPOperacoes";
-            this.GPOperacoes.Size = new System.Drawing.Size(200, 251);
+            this.GPOperacoes.Size = new System.Drawing.Size(202, 279);
             this.GPOperacoes.TabIndex = 2;
             this.GPOperacoes.TabStop = false;
             this.GPOperacoes.Text = "Operações Centros de Custo";
@@ -301,7 +312,7 @@
             // BtnAddCentroCusto
             // 
             this.BtnAddCentroCusto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddCentroCusto.Location = new System.Drawing.Point(24, 149);
+            this.BtnAddCentroCusto.Location = new System.Drawing.Point(22, 61);
             this.BtnAddCentroCusto.Name = "BtnAddCentroCusto";
             this.BtnAddCentroCusto.Size = new System.Drawing.Size(151, 23);
             this.BtnAddCentroCusto.TabIndex = 3;
@@ -312,7 +323,7 @@
             // BtnAddContasReceber
             // 
             this.BtnAddContasReceber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddContasReceber.Location = new System.Drawing.Point(25, 21);
+            this.BtnAddContasReceber.Location = new System.Drawing.Point(23, 101);
             this.BtnAddContasReceber.Name = "BtnAddContasReceber";
             this.BtnAddContasReceber.Size = new System.Drawing.Size(150, 23);
             this.BtnAddContasReceber.TabIndex = 2;
@@ -323,7 +334,7 @@
             // BtnAddContasPagar
             // 
             this.BtnAddContasPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddContasPagar.Location = new System.Drawing.Point(25, 64);
+            this.BtnAddContasPagar.Location = new System.Drawing.Point(22, 146);
             this.BtnAddContasPagar.Name = "BtnAddContasPagar";
             this.BtnAddContasPagar.Size = new System.Drawing.Size(150, 23);
             this.BtnAddContasPagar.TabIndex = 1;
@@ -334,7 +345,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(25, 104);
+            this.button1.Location = new System.Drawing.Point(21, 186);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 23);
             this.button1.TabIndex = 0;
@@ -345,11 +356,14 @@
             // BtnClose
             // 
             this.BtnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClose.Location = new System.Drawing.Point(544, 357);
+            this.BtnClose.Image = ((System.Drawing.Image)(resources.GetObject("BtnClose.Image")));
+            this.BtnClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnClose.Location = new System.Drawing.Point(797, 499);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(75, 23);
+            this.BtnClose.Size = new System.Drawing.Size(52, 70);
             this.BtnClose.TabIndex = 3;
             this.BtnClose.Text = "Sair";
+            this.BtnClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
@@ -357,9 +371,9 @@
             // 
             this.GBFornecedor.Controls.Add(this.BtnListFornecedores);
             this.GBFornecedor.Controls.Add(this.BtnAddFornecedor);
-            this.GBFornecedor.Location = new System.Drawing.Point(232, 292);
+            this.GBFornecedor.Location = new System.Drawing.Point(334, 434);
             this.GBFornecedor.Name = "GBFornecedor";
-            this.GBFornecedor.Size = new System.Drawing.Size(200, 108);
+            this.GBFornecedor.Size = new System.Drawing.Size(202, 132);
             this.GBFornecedor.TabIndex = 4;
             this.GBFornecedor.TabStop = false;
             this.GBFornecedor.Text = "Fornecedor";
@@ -367,7 +381,7 @@
             // BtnListFornecedores
             // 
             this.BtnListFornecedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnListFornecedores.Location = new System.Drawing.Point(21, 61);
+            this.BtnListFornecedores.Location = new System.Drawing.Point(21, 88);
             this.BtnListFornecedores.Name = "BtnListFornecedores";
             this.BtnListFornecedores.Size = new System.Drawing.Size(151, 23);
             this.BtnListFornecedores.TabIndex = 1;
@@ -378,7 +392,7 @@
             // BtnAddFornecedor
             // 
             this.BtnAddFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddFornecedor.Location = new System.Drawing.Point(21, 20);
+            this.BtnAddFornecedor.Location = new System.Drawing.Point(21, 47);
             this.BtnAddFornecedor.Name = "BtnAddFornecedor";
             this.BtnAddFornecedor.Size = new System.Drawing.Size(151, 23);
             this.BtnAddFornecedor.TabIndex = 0;
@@ -390,9 +404,9 @@
             // 
             this.GBLojas.Controls.Add(this.BtnListLojas);
             this.GBLojas.Controls.Add(this.BtnAddLoja);
-            this.GBLojas.Location = new System.Drawing.Point(12, 292);
+            this.GBLojas.Location = new System.Drawing.Point(26, 434);
             this.GBLojas.Name = "GBLojas";
-            this.GBLojas.Size = new System.Drawing.Size(200, 108);
+            this.GBLojas.Size = new System.Drawing.Size(202, 135);
             this.GBLojas.TabIndex = 5;
             this.GBLojas.TabStop = false;
             this.GBLojas.Text = "Lojas";
@@ -400,7 +414,7 @@
             // BtnListLojas
             // 
             this.BtnListLojas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnListLojas.Location = new System.Drawing.Point(24, 61);
+            this.BtnListLojas.Location = new System.Drawing.Point(23, 90);
             this.BtnListLojas.Name = "BtnListLojas";
             this.BtnListLojas.Size = new System.Drawing.Size(151, 23);
             this.BtnListLojas.TabIndex = 1;
@@ -411,7 +425,7 @@
             // BtnAddLoja
             // 
             this.BtnAddLoja.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAddLoja.Location = new System.Drawing.Point(24, 20);
+            this.BtnAddLoja.Location = new System.Drawing.Point(23, 49);
             this.BtnAddLoja.Name = "BtnAddLoja";
             this.BtnAddLoja.Size = new System.Drawing.Size(151, 23);
             this.BtnAddLoja.TabIndex = 0;
@@ -422,12 +436,13 @@
             // PicBoxHiper
             // 
             this.PicBoxHiper.Image = ((System.Drawing.Image)(resources.GetObject("PicBoxHiper.Image")));
-            this.PicBoxHiper.Location = new System.Drawing.Point(491, 259);
+            this.PicBoxHiper.Location = new System.Drawing.Point(649, 44);
             this.PicBoxHiper.Name = "PicBoxHiper";
-            this.PicBoxHiper.Size = new System.Drawing.Size(159, 121);
+            this.PicBoxHiper.Size = new System.Drawing.Size(200, 151);
             this.PicBoxHiper.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicBoxHiper.TabIndex = 7;
             this.PicBoxHiper.TabStop = false;
+            this.PicBoxHiper.Click += new System.EventHandler(this.PicBoxHiper_Click);
             // 
             // GroupRelatorios
             // 
@@ -437,17 +452,39 @@
             this.GroupRelatorios.Controls.Add(this.BtnContasRecebidas);
             this.GroupRelatorios.Controls.Add(this.BtnContaReceber);
             this.GroupRelatorios.Controls.Add(this.BtnContasAPagar);
-            this.GroupRelatorios.Location = new System.Drawing.Point(232, 35);
+            this.GroupRelatorios.Location = new System.Drawing.Point(334, 66);
             this.GroupRelatorios.Name = "GroupRelatorios";
-            this.GroupRelatorios.Size = new System.Drawing.Size(200, 251);
+            this.GroupRelatorios.Size = new System.Drawing.Size(202, 279);
             this.GroupRelatorios.TabIndex = 8;
             this.GroupRelatorios.TabStop = false;
-            this.GroupRelatorios.Text = "Principais Relatórios";
+            this.GroupRelatorios.Text = "Principais Relatórios e Ações";
+            // 
+            // BtnMF
+            // 
+            this.BtnMF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMF.Location = new System.Drawing.Point(21, 226);
+            this.BtnMF.Name = "BtnMF";
+            this.BtnMF.Size = new System.Drawing.Size(151, 23);
+            this.BtnMF.TabIndex = 5;
+            this.BtnMF.Text = "Borderô";
+            this.BtnMF.UseVisualStyleBackColor = true;
+            this.BtnMF.Click += new System.EventHandler(this.BtnMF_Click);
+            // 
+            // BtnTodasContas
+            // 
+            this.BtnTodasContas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTodasContas.Location = new System.Drawing.Point(21, 186);
+            this.BtnTodasContas.Name = "BtnTodasContas";
+            this.BtnTodasContas.Size = new System.Drawing.Size(151, 23);
+            this.BtnTodasContas.TabIndex = 4;
+            this.BtnTodasContas.Text = "Todas as Contas";
+            this.BtnTodasContas.UseVisualStyleBackColor = true;
+            this.BtnTodasContas.Click += new System.EventHandler(this.BtnTodasContas_Click);
             // 
             // BtnContasPagas
             // 
             this.BtnContasPagas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContasPagas.Location = new System.Drawing.Point(21, 104);
+            this.BtnContasPagas.Location = new System.Drawing.Point(21, 106);
             this.BtnContasPagas.Name = "BtnContasPagas";
             this.BtnContasPagas.Size = new System.Drawing.Size(151, 23);
             this.BtnContasPagas.TabIndex = 3;
@@ -458,7 +495,7 @@
             // BtnContasRecebidas
             // 
             this.BtnContasRecebidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContasRecebidas.Location = new System.Drawing.Point(21, 149);
+            this.BtnContasRecebidas.Location = new System.Drawing.Point(21, 146);
             this.BtnContasRecebidas.Name = "BtnContasRecebidas";
             this.BtnContasRecebidas.Size = new System.Drawing.Size(151, 23);
             this.BtnContasRecebidas.TabIndex = 2;
@@ -468,24 +505,26 @@
             // 
             // BtnContaReceber
             // 
+            this.BtnContaReceber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BtnContaReceber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContaReceber.Location = new System.Drawing.Point(21, 64);
+            this.BtnContaReceber.Location = new System.Drawing.Point(21, 66);
             this.BtnContaReceber.Name = "BtnContaReceber";
             this.BtnContaReceber.Size = new System.Drawing.Size(151, 23);
             this.BtnContaReceber.TabIndex = 1;
             this.BtnContaReceber.Text = "Contas a Receber";
-            this.BtnContaReceber.UseVisualStyleBackColor = true;
+            this.BtnContaReceber.UseVisualStyleBackColor = false;
             this.BtnContaReceber.Click += new System.EventHandler(this.BtnContaReceber_Click);
             // 
             // BtnContasAPagar
             // 
+            this.BtnContasAPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BtnContasAPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnContasAPagar.Location = new System.Drawing.Point(21, 21);
+            this.BtnContasAPagar.Location = new System.Drawing.Point(21, 26);
             this.BtnContasAPagar.Name = "BtnContasAPagar";
             this.BtnContasAPagar.Size = new System.Drawing.Size(151, 23);
             this.BtnContasAPagar.TabIndex = 0;
             this.BtnContasAPagar.Text = "Contas a Pagar";
-            this.BtnContasAPagar.UseVisualStyleBackColor = true;
+            this.BtnContasAPagar.UseVisualStyleBackColor = false;
             this.BtnContasAPagar.Click += new System.EventHandler(this.BtnContasAPagar_Click);
             // 
             // GroupBalanço
@@ -497,7 +536,7 @@
             this.GroupBalanço.Controls.Add(this.txt_a_pagar);
             this.GroupBalanço.Controls.Add(this.txt_a_receber);
             this.GroupBalanço.Controls.Add(this.btn_atualizar_balanco);
-            this.GroupBalanço.Location = new System.Drawing.Point(450, 35);
+            this.GroupBalanço.Location = new System.Drawing.Point(649, 229);
             this.GroupBalanço.Name = "GroupBalanço";
             this.GroupBalanço.Size = new System.Drawing.Size(200, 215);
             this.GroupBalanço.TabIndex = 10;
@@ -564,41 +603,73 @@
             // btn_atualizar_balanco
             // 
             this.btn_atualizar_balanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_atualizar_balanco.Location = new System.Drawing.Point(119, 176);
+            this.btn_atualizar_balanco.Image = ((System.Drawing.Image)(resources.GetObject("btn_atualizar_balanco.Image")));
+            this.btn_atualizar_balanco.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_atualizar_balanco.Location = new System.Drawing.Point(110, 176);
             this.btn_atualizar_balanco.Name = "btn_atualizar_balanco";
-            this.btn_atualizar_balanco.Size = new System.Drawing.Size(75, 23);
+            this.btn_atualizar_balanco.Size = new System.Drawing.Size(84, 33);
             this.btn_atualizar_balanco.TabIndex = 0;
             this.btn_atualizar_balanco.Text = "Atualizar";
+            this.btn_atualizar_balanco.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_atualizar_balanco.UseVisualStyleBackColor = true;
             this.btn_atualizar_balanco.Click += new System.EventHandler(this.btn_atualizar_balanco_Click);
             // 
-            // BtnTodasContas
+            // pictureBox1
             // 
-            this.BtnTodasContas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTodasContas.Location = new System.Drawing.Point(21, 187);
-            this.BtnTodasContas.Name = "BtnTodasContas";
-            this.BtnTodasContas.Size = new System.Drawing.Size(151, 23);
-            this.BtnTodasContas.TabIndex = 4;
-            this.BtnTodasContas.Text = "Todas as Contas";
-            this.BtnTodasContas.UseVisualStyleBackColor = true;
-            this.BtnTodasContas.Click += new System.EventHandler(this.BtnTodasContas_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(203, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 64);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
-            // BtnMF
+            // pictureBox3
             // 
-            this.BtnMF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMF.Location = new System.Drawing.Point(21, 222);
-            this.BtnMF.Name = "BtnMF";
-            this.BtnMF.Size = new System.Drawing.Size(151, 23);
-            this.BtnMF.TabIndex = 5;
-            this.BtnMF.Text = "Borderô";
-            this.BtnMF.UseVisualStyleBackColor = true;
-            this.BtnMF.Click += new System.EventHandler(this.BtnMF_Click);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(512, 39);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(84, 76);
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(188, 425);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 44);
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(512, 398);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(84, 72);
+            this.pictureBox4.TabIndex = 19;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(649, 523);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(101, 45);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 20;
+            this.pictureBox5.TabStop = false;
             // 
             // Frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 401);
+            this.ClientSize = new System.Drawing.Size(877, 591);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GroupBalanço);
             this.Controls.Add(this.GroupRelatorios);
             this.Controls.Add(this.BtnClose);
@@ -607,10 +678,11 @@
             this.Controls.Add(this.GBFornecedor);
             this.Controls.Add(this.GPOperacoes);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tracking Tool 1.2.5.1";
+            this.Text = "Tracking Tool 1.2.8.3 - PAP";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_Main_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -621,6 +693,11 @@
             this.GroupRelatorios.ResumeLayout(false);
             this.GroupBalanço.ResumeLayout(false);
             this.GroupBalanço.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -682,5 +759,10 @@
         private System.Windows.Forms.ToolStripMenuItem contasPagasToolStripMenuItem;
         private System.Windows.Forms.Button BtnTodasContas;
         private System.Windows.Forms.Button BtnMF;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

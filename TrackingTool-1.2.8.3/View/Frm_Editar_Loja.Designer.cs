@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Editar_Loja));
             this.LbAddForn = new System.Windows.Forms.Label();
             this.BtnSalvarLoja = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -76,22 +77,28 @@
             // BtnSalvarLoja
             // 
             this.BtnSalvarLoja.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalvarLoja.Location = new System.Drawing.Point(390, 463);
+            this.BtnSalvarLoja.Image = ((System.Drawing.Image)(resources.GetObject("BtnSalvarLoja.Image")));
+            this.BtnSalvarLoja.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnSalvarLoja.Location = new System.Drawing.Point(328, 453);
             this.BtnSalvarLoja.Name = "BtnSalvarLoja";
-            this.BtnSalvarLoja.Size = new System.Drawing.Size(75, 23);
+            this.BtnSalvarLoja.Size = new System.Drawing.Size(94, 33);
             this.BtnSalvarLoja.TabIndex = 14;
             this.BtnSalvarLoja.Text = "Salvar";
+            this.BtnSalvarLoja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSalvarLoja.UseVisualStyleBackColor = true;
             this.BtnSalvarLoja.Click += new System.EventHandler(this.BtnSalvarLoja_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(471, 463);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(446, 453);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(94, 33);
             this.button1.TabIndex = 16;
             this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -126,11 +133,14 @@
             // BtnLimpar
             // 
             this.BtnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpar.Location = new System.Drawing.Point(19, 463);
+            this.BtnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("BtnLimpar.Image")));
+            this.BtnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLimpar.Location = new System.Drawing.Point(19, 453);
             this.BtnLimpar.Name = "BtnLimpar";
-            this.BtnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLimpar.Size = new System.Drawing.Size(94, 33);
             this.BtnLimpar.TabIndex = 15;
             this.BtnLimpar.Text = "Limpar";
+            this.BtnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnLimpar.UseVisualStyleBackColor = true;
             this.BtnLimpar.Click += new System.EventHandler(this.BtnLimpar_Click);
             // 

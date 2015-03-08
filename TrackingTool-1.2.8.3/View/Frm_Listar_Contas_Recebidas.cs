@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using Tracking.Model;
 using Tracking.Controler;
 using Tracking.Tool;
-using Excel = Microsoft.Office.Interop.Excel; 
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace Tracking.View
 {
@@ -22,6 +22,7 @@ namespace Tracking.View
             double total = 0;
             banco db = SingletonObjectContext.Instance.Context;
             DGContasReceber.Rows.Clear();
+
             foreach (ContaReceber x in db.ContaReceber)
             {
                 if (x.status == true)
@@ -36,14 +37,10 @@ namespace Tracking.View
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
             Close();
-
         }
 
         private void BtnExcel_Click(object sender, EventArgs e)
         {
-
-            
-
             try
             {
                 Excel.Application xlApp;
@@ -55,8 +52,8 @@ namespace Tracking.View
                 xlWorkBook = xlApp.Workbooks.Add(misValue);
 
                 xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
-                
-                
+
+
                 xlWorkSheet.Cells[1, 1] = "ID";
                 xlWorkSheet.Cells[1, 2] = "Data do Cadastro";
                 xlWorkSheet.Cells[1, 3] = "Data do Recebimento";
@@ -68,19 +65,19 @@ namespace Tracking.View
                 xlWorkSheet.Cells[1, 9] = "Centro de Custo";
                 xlWorkSheet.Cells[1, 10] = "Valor R$";
 
-                
+
                 xlWorkSheet.Cells[1, 13] = "Valor Total Recebido R$";
                 xlWorkSheet.Cells[2, 13] = TxtTotalReceber.Text.ToString();
                 xlWorkSheet.Cells[1, 16] = "Relatório Gerado em:";
                 xlWorkSheet.Cells[2, 16] = DateTime.Now;
 
                 DataGridViewCell celula = null;
-                
+
 
                 // vamos percorrer as linhas
                 for (int i = 0; i < DGContasReceber.RowCount; i++)
                 {
-                // vamos percorrer as colunas de cada linha
+                    // vamos percorrer as colunas de cada linha
                     for (int x = 0; x < DGContasReceber.ColumnCount; x++)
                     {
                         // obtém a célula na coluna x e linha i
@@ -88,20 +85,17 @@ namespace Tracking.View
 
                         if (celula.Value != null)
                         {
-                            xlWorkSheet.Cells[i+2, x+1] = celula.Value.ToString();
-                            
+                            xlWorkSheet.Cells[i + 2, x + 1] = celula.Value.ToString();
+
                         }
                         else
                         {
-                            
-                        }
-                        
-                    }
-                    
-                }
-                
 
-                
+                        }
+
+                    }
+
+                }
 
                 xlWorkBook.SaveAs(txtArquivoExcel.Text, Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
                 xlWorkBook.Close(true, misValue, misValue);
@@ -135,12 +129,23 @@ namespace Tracking.View
             {
                 GC.Collect();
             }
-
         }
 
-        
+        private void BtnFiltrar_Click_1(object sender, EventArgs e)
+        {
+            double total = 0;
+            banco db = SingletonObjectContext.Instance.Context;
+            DGContasReceber.Rows.Clear();
 
-        
+            foreach (ContaReceber x in db.ContaReceber)
+            {
+                if (x.status == true && (x.dataRecebe.Date >= DateTime.Parse(dateTimePicker1.Text)) && (x.dataRecebe.Date <= DateTime.Parse(dateTimePicker2.Text)))
+                {
+                    DGContasReceber.Rows.Add(x.id, x.dataCadastrado, x.dataRecebe, x.codigo, x.loja, x.fornecedor, x.descricao, x.tipo, x.centroCusto, x.valor);
+                    total += x.valor;
+                }
+            }
+            TxtTotalReceber.Text = total.ToString();
+        }
     }
- }
- 
+}
