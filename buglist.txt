@@ -1,1 +1,6 @@
+TODO:
+
+Done:
+- Fixed removing payment/debt from empty grid crashes
+
 Buglist clean again, sweet! :)
