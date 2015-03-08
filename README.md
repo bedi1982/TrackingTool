@@ -1,15 +1,14 @@
 
---------------REGRAS GERAIS desenvolvimento-----------------
+--> Don't break the code; 
 
-Aqui tudo o que você fez no código deve ser colocado e
-de maneira didática, se você mexeu na função de alguém
-escreva aqui o porque e o que mudou.
+--> Don't upload it if you didn't do Unitary tests;
 
-Se você criar um novo atributo numa classe escreva aqui porque.
-Se você remover um atributo de alguma classe explique porque.
-Se você fizer código e deixar esta documentação porca você será cobrado e
-poderá se expulso do time de desenvolvimento.
+--> Log why you created a new class;
 
-**************Não deixe o código quebrado.**************
+--> Log why you created a new attribute;
 
---------------------------------------------------------------
+--> Log why you didn't updated the docummentation;
+
+--> Use VMS for unitary testing, there is no need to mess the main branch;
+
+***DO NOT BREAK THE CODE***

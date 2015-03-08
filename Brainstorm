@@ -1,3 +1,4 @@
 05-10-2013 Sergio
 
-Add a grid in the main screen showing which bills we need to pay by today
+Add a grid in the main screen showing which bills we need to pay by today;
+Show remaining cash/debts for the week on the main screen -> A filter to this one (Day, Week, Month, Year);
