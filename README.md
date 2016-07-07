@@ -7,8 +7,4 @@
 
 --> Log why you created a new attribute;
 
---> Log why you didn't updated the docummentation;
-
---> Use VMS for unitary testing, there is no need to mess the main branch;
-
-***DO NOT BREAK THE CODE***
+--> Log why you didn't updated the docummentation :)
