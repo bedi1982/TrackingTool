@@ -1,10 +1,14 @@
+Main Window:
 
---> Don't break the code; 
+![Alt text](/Screenshots/Main.PNG)
 
---> Don't upload it if you didn't do Unitary tests;
+Cost Center:
 
---> Log why you created a new class;
+![Alt text](/Screenshots/cost_center.PNG)
 
---> Log why you created a new attribute;
+Paid Bills:
 
---> Log why you didn't updated the docummentation :)
+![Alt text](/Screenshots/paid_accounts.PNG)
+
+Saldos:
+![Alt text](/Screenshots/saldos.PNG)
